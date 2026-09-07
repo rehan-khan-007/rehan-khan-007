@@ -89,30 +89,30 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 `Python` `LangGraph` `FastAPI` `PostgreSQL/pgvector` `Redis` `OpenTelemetry` `Langfuse` `Next.js`
 
-**→ [Explore the repo](https://github.com/rehan-khan-007/Agent-OS)**
+**→ [Live Demo](https://agent-os-weld.vercel.app/) · [Explore the repo](https://github.com/rehan-khan-007/Agent-OS)**
 
 ---
 
 ### 🤖 AI/ML & Agent Systems
 
-| Project | Description | Tech | Repo |
-|---|---|---|---|
-| 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | `Python` `RAGAS` `DeepEval` `PostgreSQL` | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
-| 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | `Python` `FastAPI` `React` `SHAP` `MLflow` | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
+| Project | Description | Tech | Live Demo | Repo |
+|---|---|---|---|---|
+| 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | `Python` `RAGAS` `DeepEval` `PostgreSQL` | [Visit](https://evalos-dashboard.onrender.com/) | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
+| 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | `Python` `FastAPI` `React` `SHAP` `MLflow` | [Visit](https://clinical-risk-prediction-explainabi.vercel.app/) | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
 
 ### ⚙️ Systems & Infrastructure
 
-| Project | Description | Tech | Repo |
-|---|---|---|---|
-| 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | `TypeScript` `Node.js` `Redis` `Kubernetes` | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
-| ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | `Docker` `Kubernetes` `Node.js` `WebSockets` | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
+| Project | Description | Tech | Live Demo | Repo |
+|---|---|---|---|---|
+| 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | `TypeScript` `Node.js` `Redis` `Kubernetes` | — | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
+| ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | `Docker` `Kubernetes` `Node.js` `WebSockets` | — | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
 
 ### 🎓 Academic & Research
 
-| Project | Description | Tech | Repo |
-|---|---|---|---|
-| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | `Python` `Signal Processing` `SVM` | — |
-| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | `Python` `PyTorch` | — |
+| Project | Description | Tech | Live Demo | Repo |
+|---|---|---|---|---|
+| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | `Python` `Signal Processing` `SVM` | — | — |
+| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | `Python` `PyTorch` | — | — |
 
 ---
 
