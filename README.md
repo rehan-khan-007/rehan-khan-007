@@ -77,90 +77,51 @@ const philosophy = () => ({
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 [AgentOS](https://github.com/rehan-khan-007/Agent-OS)
+### ⭐ Flagship: AgentOS
 **Evaluation-Driven AI Agent Runtime**
 
-End-to-end runtime for executing, observing, and evaluating long-running AI agents — retrieval, tool use, and state, with production-grade observability baked in.
+An end-to-end runtime for executing, observing, and evaluating long-running AI agents — retrieval, tool orchestration, and state, built with production-grade observability from day one. Structured as a real product, not a portfolio demo: RAG pipeline, agent memory, evaluation harness, and an observability stack all wired together.
+
+- 🔍 **Hybrid RAG pipeline** — ingestion, chunking, and pgvector-backed retrieval over PostgreSQL
+- 🤖 **Agent orchestration layer** — stateful, long-running tasks with tool use and memory
+- 📊 **Built-in evaluation & observability** — OpenTelemetry + Langfuse instrumentation across every run
+- ☁️ **Deployed, not just built** — Next.js frontend on Vercel, FastAPI backend on Render, Neon Postgres (pgvector)
 
 `Python` `LangGraph` `FastAPI` `PostgreSQL/pgvector` `Redis` `OpenTelemetry` `Langfuse` `Next.js`
 
-<a href="https://github.com/rehan-khan-007/Agent-OS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rehan-khan-007&repo=Agent-OS&theme=tokyonight&hide_border=true" width="100%" />
-</a>
+**→ [Explore the repo](https://github.com/rehan-khan-007/Agent-OS)**
 
-</td>
-<td width="50%" valign="top">
+---
 
-### ⚙️ [Workflow Orchestration Engine](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine)
-**Fault-Tolerant Distributed Task Orchestration**
+### 🤖 AI/ML & Agent Systems
 
-DAG-based dependency resolution across concurrent workflows, with Redis-backed queues, worker leases/heartbeats, and Kubernetes-based parallel execution.
+| Project | Description | Tech | Repo |
+|---|---|---|---|
+| 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | `Python` `RAGAS` `DeepEval` `PostgreSQL` | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
+| 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | `Python` `FastAPI` `React` `SHAP` `MLflow` | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
 
-`TypeScript` `Node.js` `Redis` `PostgreSQL` `Docker` `Kubernetes`
+### ⚙️ Systems & Infrastructure
 
-<a href="https://github.com/rehan-khan-007/Workflow-Orchestration-Engine">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rehan-khan-007&repo=Workflow-Orchestration-Engine&theme=tokyonight&hide_border=true" width="100%" />
-</a>
+| Project | Description | Tech | Repo |
+|---|---|---|---|
+| 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | `TypeScript` `Node.js` `Redis` `Kubernetes` | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
+| ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | `Docker` `Kubernetes` `Node.js` `WebSockets` | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### 🎓 Academic & Research
 
-### 📊 [EvalOS](https://github.com/rehan-khan-007/Eval-OS)
-**LLM Evaluation & Benchmarking Framework**
+| Project | Description | Tech | Repo |
+|---|---|---|---|
+| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | `Python` `Signal Processing` `SVM` | — |
+| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | `Python` `PyTorch` | — |
 
-Reproducible pipeline for evaluating RAG and LLM systems end-to-end — hybrid retrieval, cross-encoder reranking, hallucination attribution, and LLM-as-a-Judge scoring.
-
-`Python` `RAGAS` `DeepEval` `BM25` `Cross-Encoder` `PostgreSQL` `Typer`
-
-<a href="https://github.com/rehan-khan-007/Eval-OS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rehan-khan-007&repo=Eval-OS&theme=tokyonight&hide_border=true" width="100%" />
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🩺 [Clinical Risk Prediction & Explainability Platform](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-)
-**Cardiovascular Risk Prediction, Explained**
-
-Full-stack ML platform for cardiovascular disease risk prediction with SHAP-based explanations, calibrated probabilities, and subgroup fairness auditing.
-
-`Python` `FastAPI` `React` `PostgreSQL` `SHAP` `MLflow` `Docker`
-
-<a href="https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rehan-khan-007&repo=Clinical-Risk-Prediction-Explainability-Platform-&theme=tokyonight&hide_border=true" width="100%" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ☁️ Cloud-Native Code Execution & Development Platform
-**Multi-Tenant Kubernetes Sandboxes**
-
-Isolated, resource-quota'd Kubernetes workspaces with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning.
-
-`Docker` `Kubernetes` `Node.js` `WebSockets` `Redis` `AWS S3`
-
-</td>
-<td width="50%" valign="top">
+---
 
 ### 🧬 Quantum Optimal Control of Spin Systems
-**M.Tech Thesis — IIT Bombay**
+**M.Tech Thesis — IIT Bombay** · advisor: Prof. Navin Khaneja
 
-Modelling spin-1/2 dynamics via Bloch sphere & Pauli matrices; implementing GRAPE for high-fidelity quantum state preparation, extending to Lyapunov-based feedback control.
+Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and Pauli matrices, simulating Rabi oscillations under magnetic field actuation. Implementing the GRAPE optimal control algorithm for high-fidelity quantum state preparation, extending toward Lyapunov-based feedback control and stochastic noise robustness — comparing GRAPE, CRAB, and Lyapunov control protocols on fidelity, convergence, and noise tolerance.
 
 `Python` `NumPy` `Optimal Control` `GRAPE` `Lyapunov Methods`
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -263,8 +224,6 @@ graph TB
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/output/github-contribution-grid-snake-dark.svg" width="90%" />
 </p>
-
-<sub>Needs the one-time GitHub Actions workflow set up (see below) — until then this box stays empty.</sub>
 
 ---
 
