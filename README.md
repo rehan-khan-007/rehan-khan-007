@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/rehan-khan-india"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:bro39404k@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://x.com/rehan2924p"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://x.com/rehan_khan__007"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://github.com/rehan-khan-007"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
@@ -55,6 +55,14 @@ const rehan: Engineer = {
     "📚 Stanford Code in Place",
   ],
 };
+
+// My approach to engineering
+const philosophy = () => ({
+  design: "Rigorous, measurable, and demoable",
+  code: "Clean, benchmarked, and documented",
+  research: "Theory grounded in working implementation",
+  mindset: "Systems thinking, from control loops to agent loops",
+});
 ```
 
 ---
@@ -174,7 +182,35 @@ Clinical Risk Platform &nbsp;<img src="https://progress-bar.dev/70/?width=260&co
 Cloud-Native Platform &nbsp;&nbsp;<img src="https://progress-bar.dev/40/?width=265&color=FFD93D" />
 </p>
 
-<sub>Update the numbers as you go — these are just <code>progress-bar.dev/&lt;percent&gt;</code> images.</sub>
+<sub>Update the numbers as you go — these are <code>progress-bar.dev/&lt;percent&gt;</code> images, no setup needed.</sub>
+
+---
+
+## ✅ Master Technologies
+
+- [x] Python for AI/ML systems
+- [x] FastAPI / Node.js backends
+- [x] Docker & Kubernetes
+- [ ] Rust for systems programming
+- [ ] Distributed consensus protocols
+
+**📦 Ship Track**
+
+- [x] 2 production-deployed platforms (AgentOS, Clinical Risk Platform)
+- [x] 1 completed evaluation framework (EvalOS)
+- [ ] Kubernetes-scale benchmark suite (Workflow Orchestration Engine)
+- [ ] Multi-tenant cloud sandbox platform (Cloud-Native Platform)
+
+---
+
+## 🧭 Unique Approach
+
+| Background | Applied As |
+|---|---|
+| 🔬 **Control Theory** | Optimal & feedback control framing for agent orchestration and system reliability |
+| 🧠 **AI/ML Engineering** | RAG pipelines, agent evals, and observability for production LLM systems |
+| ⚙️ **Systems Engineering** | Fault-tolerant, distributed execution — from Kubernetes pods to agent runtimes |
+| 🎖️ **Military Academy Discipline** | Structured, benchmarked execution over ad-hoc iteration |
 
 ---
 
@@ -211,12 +247,14 @@ graph TB
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rehan-khan-007&theme=tokyonight&hide_border=true" width="60%" />
+  <img src="https://streak-stats.demolab.com/?user=rehan-khan-007&theme=tokyonight&hide_border=true" width="60%" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=rehan-khan-007&theme=react-dark&hide_border=true" width="90%" />
 </p>
+
+<sub>These cards fetch live from the GitHub API via a shared public service — if one looks blank on first load, refresh the page; it's a caching quirk, not a dead link.</sub>
 
 ---
 
@@ -226,7 +264,7 @@ graph TB
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/output/github-contribution-grid-snake-dark.svg" width="90%" />
 </p>
 
-<sub>This one needs a ~2-minute one-time setup — see the "Snake animation setup" note below.</sub>
+<sub>Needs the one-time GitHub Actions workflow set up (see below) — until then this box stays empty.</sub>
 
 ---
 
@@ -238,22 +276,31 @@ graph TB
 
 ---
 
-## 💭 Daily Inspiration
+## 💼 Status
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://img.shields.io/badge/🎓_M.Tech-2026_Batch-9333EA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💼_Open_to-Placements-4ECDC4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📍_Based_in-Mumbai%2C_India-FFD93D?style=for-the-badge&labelColor=000" />
 </p>
 
 ---
 
-## 📫 Connect
+## 💭 Daily Inspiration
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rehan-khan-india"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:bro39404k@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://x.com/rehan2924p"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://github.com/rehan-khan-007"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 </p>
+
+---
+
+## 📫 Get In Touch
+
+- **📧 Email** — [bro39404k@gmail.com](mailto:bro39404k@gmail.com) — for professional inquiries
+- **💼 LinkedIn** — [rehan-khan-india](https://www.linkedin.com/in/rehan-khan-india) — let's connect professionally
+- **🐦 X** — [@rehan_khan__007](https://x.com/rehan_khan__007)
+- **💻 GitHub** — [rehan-khan-007](https://github.com/rehan-khan-007)
 
 <p align="center"><sub>"Systems that learn, control loops that hold." — M.Tech, Systems and Control Engineering · IIT Bombay</sub></p>
 
