@@ -1,6 +1,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=200&section=header&text=Rehan%20Khan&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=SDE%20%7C%20AI%2FML%20Engineer%20%7C%20Systems%20%26%20Control&descAlignY=55&descSize=18" width="100%"/>
 
 <p align="center">
+  <a href="#-quantum-optimal-control-of-spin-systems">🔬 Quantum Control</a> &nbsp;·&nbsp;
+  <a href="#-aiml--agent-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
+  <a href="#-systems--infrastructure">⚙️ Infrastructure</a>
+</p>
+
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9333EA&center=true&vCenter=true&width=650&lines=M.Tech%2C+Systems+%26+Control+Engineering+%40+IIT+Bombay;Building+evaluation-driven+AI+agent+systems;Quantum+optimal+control+of+spin+systems;Distributed+systems+%2B+ML+%2B+control+theory" alt="Typing SVG" />
 </p>
 
