@@ -275,8 +275,8 @@ graph TB
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rehan-khan-007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rehan-khan-007&layout=compact&theme=tokyonight&hide_border=true" width="30%" />
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/stats.svg" width="49%" />
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/languages.svg" width="49%" />
 </p>
 
 <p align="center">
