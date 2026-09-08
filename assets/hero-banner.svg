@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 320" width="1600" height="320">
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 800" width="1600" height="800">
+  <defs>
     <radialGradient id="depth" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#1a0f2e" stop-opacity="0.35"></stop>
       <stop offset="1" stop-color="#1a0f2e" stop-opacity="0"></stop>
@@ -17,10 +17,10 @@
     <filter id="lineGlow" x="-20%" y="-400%" width="140%" height="900%">
       <feGaussianBlur stdDeviation="3"></feGaussianBlur>
     </filter>
-    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="16.7" markerHeight="16.7" markerUnits="userSpaceOnUse" orient="auto">
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 0 1 L 9 5 L 0 9 z" fill="#4ECDC4"></path>
     </marker>
-    <marker id="arrPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="14.3" markerHeight="14.3" markerUnits="userSpaceOnUse" orient="auto">
+    <marker id="arrPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 0 1 L 9 5 L 0 9 z" fill="#9333EA" fill-opacity="0.55"></path>
     </marker>
     <clipPath id="waveClip">
@@ -35,48 +35,69 @@
     </g>
   </defs>
 
-  <line x1="40" y1="150" x2="1560" y2="150" stroke="#B794F6" stroke-width="1.5" opacity="0.4">
+  
+  
+  <g fill="#ffffff">
+    <circle cx="118" cy="122" r="1" opacity="0.16"></circle>
+    <circle cx="392" cy="88" r="1.5" opacity="0.11"></circle>
+    <circle cx="214" cy="694" r="1" opacity="0.14"></circle>
+    <circle cx="512" cy="238" r="1" opacity="0.18"></circle>
+    <circle cx="608" cy="640" r="1.5" opacity="0.1"></circle>
+    <circle cx="676" cy="104" r="1" opacity="0.15"></circle>
+    <circle cx="822" cy="712" r="1" opacity="0.12"></circle>
+    <circle cx="948" cy="128" r="1.5" opacity="0.13"></circle>
+    <circle cx="1004" cy="596" r="1" opacity="0.17"></circle>
+    <circle cx="1082" cy="196" r="1" opacity="0.11"></circle>
+    <circle cx="1186" cy="686" r="1" opacity="0.15"></circle>
+    <circle cx="1268" cy="112" r="1.5" opacity="0.12"></circle>
+    <circle cx="1392" cy="604" r="1" opacity="0.16"></circle>
+    <circle cx="1468" cy="252" r="1" opacity="0.13"></circle>
+    <circle cx="1524" cy="464" r="1" opacity="0.1"></circle>
+    <circle cx="86" cy="428" r="1" opacity="0.12"></circle>
+    <circle cx="742" cy="292" r="1" opacity="0.1"></circle>
+    <circle cx="1330" cy="738" r="1.5" opacity="0.14"></circle>
+  </g>
+  
+
+  <line x1="40" y1="400" x2="1560" y2="400" stroke="#B794F6" stroke-width="1.5" opacity="0.4">
     <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.49;0.53;0.6;1" values="0.4;0.4;0.72;0.4;0.4"></animate>
   </line>
-  <clipPath id="stripClip"><rect x="40" y="0" width="1520" height="320"></rect></clipPath>
-  <g clip-path="url(#stripClip)">
-    <line x1="-110" y1="150" x2="110" y2="150" stroke="url(#pulseGrad)" stroke-width="2.5" filter="url(#lineGlow)" opacity="0">
+  <g clip-path="url(#bannerClip)">
+    <line x1="-110" y1="400" x2="110" y2="400" stroke="url(#pulseGrad)" stroke-width="2.5" filter="url(#lineGlow)" opacity="0">
       <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.499;0.5;0.5625;0.5635;1" values="0;0;1;1;0;0"></animate>
       <animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;0.5625;1" values="-100 0;-100 0;1700 0;1700 0" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"></animateTransform>
     </line>
   </g>
+  <clipPath id="bannerClip"><rect x="40" y="0" width="1520" height="800"></rect></clipPath>
 
-  <g transform="translate(280 150) scale(0.42) translate(-280 -350)">
-<g fill="none" stroke="#4ECDC4" stroke-width="3.57" opacity="0.6">
+  <g fill="none" stroke="#4ECDC4" stroke-width="1.5" opacity="0.6">
     <circle cx="280" cy="350" r="140"></circle>
     <ellipse cx="280" cy="350" rx="140" ry="38"></ellipse>
     <ellipse cx="280" cy="350" rx="48" ry="140"></ellipse>
     <ellipse cx="280" cy="280" rx="121" ry="32"></ellipse>
     <ellipse cx="280" cy="420" rx="121" ry="32"></ellipse>
   </g>
-  <line x1="280" y1="350" x2="406.9" y2="290.8" stroke="#4ECDC4" stroke-width="4.76" stroke-linecap="round" marker-end="url(#arrTeal)">
+  <line x1="280" y1="350" x2="406.9" y2="290.8" stroke="#4ECDC4" stroke-width="2" stroke-linecap="round" marker-end="url(#arrTeal)">
     <animate attributeName="x2" dur="8s" repeatCount="indefinite" calcMode="linear" values="406.9;401.4;363.5;303.3;236.7;181.8;153.1;158.6;196.5;256.7;323.3;378.2;406.9"></animate>
     <animate attributeName="y2" dur="8s" repeatCount="indefinite" calcMode="linear" values="290.8;323.6;363.5;399.8;422.7;426.2;409.2;376.4;336.5;300.2;277.3;273.8;290.8"></animate>
   </line>
   <circle cx="280" cy="350" r="2.5" fill="#4ECDC4" opacity="0.8"></circle>
 
   <g clip-path="url(#waveClip)">
-    <path d="M 130 540 Q 151.5 516 173 540 Q 194.5 564 216 540 Q 237.5 516 259 540 Q 280.5 564 302 540 Q 323.5 516 345 540 Q 366.5 564 388 540 Q 409.5 516 431 540 Q 452.5 564 474 540 Q 495.5 516 517 540" fill="none" stroke="#4ECDC4" stroke-width="3.57" opacity="0.5">
+    <path d="M 130 540 Q 151.5 516 173 540 Q 194.5 564 216 540 Q 237.5 516 259 540 Q 280.5 564 302 540 Q 323.5 516 345 540 Q 366.5 564 388 540 Q 409.5 516 431 540 Q 452.5 564 474 540 Q 495.5 516 517 540" fill="none" stroke="#4ECDC4" stroke-width="1.5" opacity="0.5">
       <animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" calcMode="linear" values="0 0;-86 0"></animateTransform>
     </path>
   </g>
 
-  <g transform="translate(280 176)" color="#4ECDC4" stroke-width="3.57" opacity="0.85">
+  <g transform="translate(280 176)" color="#4ECDC4" stroke-width="1.5" opacity="0.85">
     <use href="#cloop"></use>
   </g>
 
-    </g>
-  <g transform="translate(800 150) scale(0.42) translate(-800 -350)">
-<g transform="translate(800 350) scale(1.5)" color="#B794F6" stroke-width="2.38" opacity="0.55">
+  <g transform="translate(800 350) scale(1.5)" color="#B794F6" stroke-width="1" opacity="0.55">
     <use href="#cloop"></use>
   </g>
 
-  <g stroke="#9333EA" stroke-width="3.57" opacity="0.4" fill="none">
+  <g stroke="#9333EA" stroke-width="1.5" opacity="0.4" fill="none">
     <line x1="794.6" y1="199.6" x2="942.4" y2="272.5" marker-end="url(#arrPurple)"></line>
     <line x1="951.8" y1="286.9" x2="909.5" y2="443.6" marker-end="url(#arrPurple)"></line>
     <line x1="897.5" y1="458.7" x2="756.1" y2="501.3" marker-end="url(#arrPurple)"></line>
@@ -87,7 +108,7 @@
     <line x1="707" y1="216" x2="897.8" y2="446.1" opacity="0.7" marker-end="url(#arrPurple)"></line>
   </g>
 
-  <g fill="none" stroke="#9333EA" stroke-width="3.57">
+  <g fill="none" stroke="#9333EA" stroke-width="1.5">
     <circle cx="786.5" cy="195.6" r="7"></circle>
     <circle cx="954.1" cy="278.2" r="7"></circle>
     <circle cx="906.1" cy="456.1" r="7"></circle>
@@ -120,29 +141,27 @@
     <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.8125;0.825;0.845;0.8625;1" values="1;1;0;0;1;1"></animate>
   </circle>
 
-    </g>
-  <g transform="translate(1320 150) scale(0.42) translate(-1320 -350)">
-<g transform="translate(1320 350) scale(2) translate(-1320 -350)">
-  <g fill="none" stroke="#4ECDC4" stroke-width="1.19" opacity="0.3">
+  <g transform="translate(1320 350) scale(2) translate(-1320 -350)">
+  <g fill="none" stroke="#4ECDC4" stroke-width="0.5" opacity="0.3">
     <line x1="1295.6" y1="335.9" x2="1310.6" y2="344.6"></line>
     <line x1="1344.4" y1="335.9" x2="1329.4" y2="344.6"></line>
     <line x1="1295.6" y1="364.1" x2="1310.6" y2="355.4"></line>
     <line x1="1344.4" y1="364.1" x2="1329.4" y2="355.4"></line>
   </g>
 
-  <g fill="none" stroke="#4ECDC4" stroke-width="1.79" stroke-linejoin="round" opacity="0.7">
+  <g fill="none" stroke="#4ECDC4" stroke-width="0.75" stroke-linejoin="round" opacity="0.7">
     <polygon points="1345,350 1332.5,371.65 1307.5,371.65 1295,350 1307.5,328.35 1332.5,328.35"></polygon>
     <polygon points="1382.5,328.35 1370,350 1345,350 1332.5,328.35 1345,306.7 1370,306.7"></polygon>
     <polygon points="1382.5,371.65 1370,393.3 1345,393.3 1332.5,371.65 1345,350 1370,350"></polygon>
     <polygon points="1307.5,371.65 1295,393.3 1270,393.3 1257.5,371.65 1270,350 1295,350"></polygon>
   </g>
   <g stroke-linejoin="round">
-    <polygon points="1307.5,328.35 1295,350 1270,350 1257.5,328.35 1270,306.7 1295,306.7" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="1.79" stroke-opacity="0.7" fill-opacity="0.1">
+    <polygon points="1307.5,328.35 1295,350 1270,350 1257.5,328.35 1270,306.7 1295,306.7" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="0.75" stroke-opacity="0.7" fill-opacity="0.1">
       <animate attributeName="fill-opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.5625;0.6;0.64;0.68;0.72;0.76;0.8125;1" values="0.1;0.1;0.22;0.08;0.24;0.09;0.2;0.1;0.1"></animate>
     </polygon>
   </g>
 
-  <path id="reroute" d="M 1282.5 328.35 Q 1320 252 1357.5 328.35" fill="none" stroke="#FF6B6B" stroke-width="1.79" stroke-dasharray="7.1 7.1" opacity="0.5"></path>
+  <path id="reroute" d="M 1282.5 328.35 Q 1320 252 1357.5 328.35" fill="none" stroke="#FF6B6B" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.5"></path>
   <circle r="1.75" fill="#FF6B6B" opacity="0">
     <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.5615;0.5625;0.8125;0.8135;1" values="0;0;1;1;0;0"></animate>
     <animateMotion dur="8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5625;0.8125;1" keyPoints="0;0;1;1" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1">
@@ -151,31 +170,41 @@
   </circle>
   </g>
 
-  <g transform="translate(1320 496) scale(0.667)" color="#E0A87E" stroke-width="5.36" opacity="0.8">
+  <g transform="translate(1320 552) scale(0.667)" color="#E0A87E" stroke-width="2.25" opacity="0.8">
     <use href="#cloop"></use>
   </g>
 
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-weight="400" text-anchor="middle">
+    <g font-size="23" letter-spacing="2" opacity="0.95">
+      <text x="780" y="62" fill="#4ECDC4" text-anchor="end">ONE FEEDBACK LOOP</text>
+      <circle cx="800" cy="56" r="6" fill="#B794F6" opacity="0.5" filter="url(#softGlow)"></circle>
+      <circle cx="800" cy="56" r="2.4" fill="#EDE3FF"></circle>
+      <text x="820" y="62" fill="#B794F6" text-anchor="start">THREE SCALES</text>
+    </g>
+    <g font-size="23" fill="#E8E6F0" opacity="0.78">
+      <text x="800" y="100">Every zone runs the same loop: measure the state, decide what to do, act, then measure again.</text>
+      <text x="800" y="130" opacity="0.72">A qubit held on course by pulse feedback, agents passing state around a graph,</text>
+      <text x="800" y="160" opacity="0.72">a cluster routing around a dead pod — one pattern, three scales.</text>
+    </g>
+    <g font-size="20" letter-spacing="2">
+      <text x="280" y="622" fill="#4ECDC4" opacity="0.85">QUANTUM CONTROL</text>
+      <text x="800" y="622" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
+      <text x="1320" y="622" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
+    </g>
+    <g font-size="20">
+      <text x="280" y="655" fill="#4ECDC4" opacity="0.72">Steering one qubit with shaped microwave pulses,</text>
+      <text x="280" y="683" fill="#4ECDC4" opacity="0.72">corrected from its own measured state.</text>
+      <text x="800" y="655" fill="#B794F6" opacity="0.78">Routing state between LLM agents and tools,</text>
+      <text x="800" y="683" fill="#B794F6" opacity="0.78">re-planning each hop from the last result.</text>
+      <text x="1320" y="655" fill="#E0A87E" opacity="0.85">Watching pods across a cluster, detecting</text>
+      <text x="1320" y="683" fill="#E0A87E" opacity="0.85">failure and rerouting before anyone notices.</text>
+      <text x="800" y="726" fill="#6FA8FF" opacity="0.85">The line threading all three diagrams is that loop's signal path: a pulse travels it as control hands off from one scale to the next.</text>
     </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-weight="400" text-anchor="middle">
-    <g font-size="15" letter-spacing="2" opacity="0.95">
-      <text x="780" y="42" fill="#4ECDC4" text-anchor="end">ONE FEEDBACK LOOP</text>
-      <circle cx="800" cy="36" r="6" fill="#B794F6" opacity="0.5" filter="url(#softGlow)"></circle>
-      <circle cx="800" cy="36" r="2.4" fill="#EDE3FF"></circle>
-      <text x="820" y="42" fill="#B794F6" text-anchor="start">THREE SCALES</text>
-    </g>
-    <g font-size="13" letter-spacing="2">
-      <text x="280" y="252" fill="#4ECDC4" opacity="0.85">QUANTUM CONTROL</text>
-      <text x="800" y="252" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
-      <text x="1320" y="252" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
-    </g>
-    <g font-size="12">
-      <text x="280" y="276" fill="#4ECDC4" opacity="0.72">Steering one qubit with shaped microwave pulses,</text>
-      <text x="280" y="294" fill="#4ECDC4" opacity="0.72">corrected from its own measured state.</text>
-      <text x="800" y="276" fill="#B794F6" opacity="0.78">Routing state between LLM agents and tools,</text>
-      <text x="800" y="294" fill="#B794F6" opacity="0.78">re-planning each hop from the last result.</text>
-      <text x="1320" y="276" fill="#E0A87E" opacity="0.85">Watching pods across a cluster, detecting</text>
-      <text x="1320" y="294" fill="#E0A87E" opacity="0.85">failure and rerouting before anyone notices.</text>
+    <g font-size="18" letter-spacing="1">
+      <text x="434" y="262" fill="#4ECDC4" opacity="0">|ψ⟩<animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.86;0.9;0.97;1" values="0;0;0.4;0.4;0"></animate></text>
+      <text x="800" y="562" font-size="21" fill="#B794F6" opacity="0">state → state<animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.03;0.07;0.5;0.54;1" values="0;0;0.4;0.4;0;0"></animate></text>
+      <text x="1320" y="198" font-size="21" fill="#FF6B6B" opacity="0">node failure → reroute<animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.5615;0.59;0.8125;0.84;1" values="0;0;0.4;0.4;0;0"></animate></text>
     </g>
   </g>
 </svg>
