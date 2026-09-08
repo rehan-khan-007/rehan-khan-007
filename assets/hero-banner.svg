@@ -191,17 +191,18 @@
       <text x="800" y="622" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
       <text x="1320" y="622" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
     </g>
-    <g font-size="16">
-      <text x="280" y="648" fill="#4ECDC4" opacity="0.72">Steering one qubit with</text>
-      <text x="280" y="668" fill="#4ECDC4" opacity="0.72">shaped microwave pulses,</text>
-      <text x="280" y="688" fill="#4ECDC4" opacity="0.72">corrected from measured state.</text>
-      <text x="800" y="648" fill="#B794F6" opacity="0.78">Routing state between LLM</text>
-      <text x="800" y="668" fill="#B794F6" opacity="0.78">agents and tools, re-planning</text>
-      <text x="800" y="688" fill="#B794F6" opacity="0.78">each hop from the last result.</text>
-      <text x="1320" y="648" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
-      <text x="1320" y="668" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
-      <text x="1320" y="688" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
-      <text x="800" y="726" fill="#6FA8FF" opacity="0.85" font-size="15">The line threading all three diagrams is that loop's signal path: a pulse travels it as control hands off from one scale to the next.</text>
+    <g font-size="23">
+      <text x="280" y="646" fill="#4ECDC4" opacity="0.72">Steering one qubit with</text>
+      <text x="280" y="676" fill="#4ECDC4" opacity="0.72">shaped microwave pulses,</text>
+      <text x="280" y="706" fill="#4ECDC4" opacity="0.72">corrected from measured state.</text>
+      <text x="800" y="646" fill="#B794F6" opacity="0.78">Routing state between LLM</text>
+      <text x="800" y="676" fill="#B794F6" opacity="0.78">agents and tools, re-planning</text>
+      <text x="800" y="706" fill="#B794F6" opacity="0.78">each hop from the last result.</text>
+      <text x="1320" y="646" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
+      <text x="1320" y="676" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
+      <text x="1320" y="706" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
+      <text x="800" y="738" fill="#6FA8FF" opacity="0.85" font-size="20">The line threading all three diagrams is that loop's signal path:</text>
+      <text x="800" y="763" fill="#6FA8FF" opacity="0.85" font-size="20">a pulse travels it as control hands off from one scale to the next.</text>
     </g>
 
     <g font-size="18" letter-spacing="1">
