@@ -76,7 +76,7 @@ const philosophy = () => ({
 
 ## 🛠️ Tech Stack
 
-**Languages**
+<p align="center"><strong>Languages</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -87,7 +87,7 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
 </p>
 
-**AI / ML & Agent Systems**
+<p align="center"><strong>AI / ML & Agent Systems</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
@@ -98,7 +98,7 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" />
 </p>
 
-**Backend & APIs**
+<p align="center"><strong>Backend & APIs</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
@@ -108,7 +108,7 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
 </p>
 
-**Databases & Caching**
+<p align="center"><strong>Databases & Caching</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -116,7 +116,7 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 </p>
 
-**DevOps & Infrastructure**
+<p align="center"><strong>DevOps & Infrastructure</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
@@ -126,14 +126,14 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
 </p>
 
-**Frontend**
+<p align="center"><strong>Frontend</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 </p>
 
-**Tools**
+<p align="center"><strong>Tools</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
