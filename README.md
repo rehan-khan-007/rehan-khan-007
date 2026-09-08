@@ -187,6 +187,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 ---
 
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/mtp-banner.svg" width="100%"/>
+
 ### 🧬 Quantum Optimal Control of Spin Systems
 **M.Tech Thesis — IIT Bombay** · advisor: Prof. Navin Khaneja
 
