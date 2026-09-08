@@ -194,7 +194,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and Pauli matrices, simulating Rabi oscillations under magnetic field actuation. Implementing the GRAPE optimal control algorithm for high-fidelity quantum state preparation, extending toward Lyapunov-based feedback control and stochastic noise robustness — comparing GRAPE, CRAB, and Lyapunov control protocols on fidelity, convergence, and noise tolerance.
 
-`Python` `NumPy` `Optimal Control` `GRAPE` `Lyapunov Methods`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Optimal Control](https://img.shields.io/badge/Optimal%20Control-6D28D9?style=flat-square) ![GRAPE](https://img.shields.io/badge/GRAPE-0EA5E9?style=flat-square) ![Lyapunov Methods](https://img.shields.io/badge/Lyapunov%20Methods-F59E0B?style=flat-square)
 
 ---
 
