@@ -215,7 +215,7 @@ $\large{\textsf{Clinical Risk Platform}}$ &nbsp;<img src="https://progress-bar.x
 $\large{\textsf{Cloud-Native Platform}}$ &nbsp;&nbsp;<img src="https://progress-bar.xyz/60/?width=265&color=FFD93D" />
 </p>
 
-<sub>$\color{#EDE3FF}{\textsf{Not a highlight reel: an honest, live snapshot of where each system actually stands, updated as they evolve.}}$</sub>
+$\color{#EDE3FF}{\LARGE{\textsf{Not a highlight reel: an honest, live snapshot of where each system actually stands, updated as they evolve.}}}$
 
 ---
 
