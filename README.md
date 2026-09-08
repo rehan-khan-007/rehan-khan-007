@@ -200,7 +200,7 @@ Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and P
 ## 📊 Build Progress
 
 <p align="left">
-AgentOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.xyz/30/?width=300&color=9333EA" />
+AgentOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.xyz/75/?width=300&color=9333EA" />
 </p>
 <p align="left">
 Workflow Orchestration Engine <img src="https://progress-bar.xyz/85/?width=220&color=4ECDC4" />
@@ -212,7 +212,7 @@ EvalOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://p
 Clinical Risk Platform &nbsp;<img src="https://progress-bar.xyz/70/?width=260&color=FF6B6B" />
 </p>
 <p align="left">
-Cloud-Native Platform &nbsp;&nbsp;<img src="https://progress-bar.xyz/40/?width=265&color=FFD93D" />
+Cloud-Native Platform &nbsp;&nbsp;<img src="https://progress-bar.xyz/60/?width=265&color=FFD93D" />
 </p>
 
 <sub>Update the numbers as you go — these are <code>progress-bar.dev/&lt;percent&gt;</code> images, no setup needed.</sub>
