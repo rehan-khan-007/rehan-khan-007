@@ -160,6 +160,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 ---
 
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/ai-ml-agent-systems-banner.svg" width="100%"/>
+
 ### 🤖 AI/ML & Agent Systems
 
 | Project | Description | Tech | Live Demo | Repo |
