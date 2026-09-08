@@ -283,12 +283,6 @@ graph TB
   <img src="https://streak-stats.demolab.com/?user=rehan-khan-007&theme=tokyonight&hide_border=true" width="60%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rehan-khan-007&theme=react-dark&hide_border=true" width="90%" />
-</p>
-
-<sub>These cards fetch live from the GitHub API via a shared public service — if one looks blank on first load, refresh the page; it's a caching quirk, not a dead link.</sub>
-
 ---
 
 ## 🐍 Contribution Snake
