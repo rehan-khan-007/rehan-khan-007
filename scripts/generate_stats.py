@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
 Custom GitHub stats generator.
-Avoids the flaky REST /stats/contributors endpoint entirely -- uses only the
-stable GraphQL API (contributionsCollection, repository languages) which does
-not suffer from GitHub's "202 / No Content, still computing" backend issue.
+Avoids the flaky REST /stats/contributors endpoint entirely for star/fork/repo
+data -- uses the stable GraphQL API instead. Lines-of-code-changed is computed
+by cloning each repo locally and running `git log --shortstat`, which also
+avoids that broken endpoint.
 """
 import os
 import sys
 import datetime
 import urllib.request
 import json
+import subprocess
+import tempfile
 
 TOKEN = os.environ.get("ACCESS_TOKEN")
 if not TOKEN:
@@ -36,7 +39,7 @@ def gql(query, variables=None):
         raise RuntimeError(f"GraphQL errors: {data['errors']}")
     return data["data"]
 
-# --- Step 1: basic profile info + repo list (single query, no per-repo REST calls) ---
+# --- Step 1: basic profile info + repo list ---
 BASIC_QUERY = """
 query {
   viewer {
@@ -44,6 +47,9 @@ query {
     name
     createdAt
     followers { totalCount }
+    repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
+      totalCount
+    }
     repositories(first: 100, ownerAffiliations: [OWNER], isFork: false, privacy: PUBLIC) {
       totalCount
       nodes {
@@ -69,6 +75,7 @@ created_at = basic["createdAt"]
 followers = basic["followers"]["totalCount"]
 repos = basic["repositories"]["nodes"]
 total_repos = basic["repositories"]["totalCount"]
+repos_contributed_to = basic["repositoriesContributedTo"]["totalCount"]
 
 total_stars = sum(r["stargazerCount"] for r in repos)
 total_forks = sum(r["forkCount"] for r in repos)
@@ -84,7 +91,7 @@ for r in repos:
 top_langs = sorted(lang_bytes.items(), key=lambda kv: kv[1], reverse=True)[:5]
 total_lang_bytes = sum(lang_bytes.values()) or 1
 
-# --- Step 2: total contributions, looping per calendar year (GraphQL caps at 1 year per call) ---
+# --- Step 2: total contributions, looping per calendar year ---
 CONTRIB_QUERY = """
 query($from: DateTime!, $to: DateTime!) {
   viewer {
@@ -118,29 +125,71 @@ for year in range(start_year, current_year + 1):
     except Exception as e:
         print(f"Warning: failed to fetch contributions for {year}: {e}", file=sys.stderr)
 
-# --- Step 3: render SVGs, styled to match the profile's existing palette ---
+# --- Step 2b: lines of code changed, computed via local git clone ---
+def get_lines_changed(owner, repo_name, token):
+    total_added, total_deleted = 0, 0
+    with tempfile.TemporaryDirectory() as tmp:
+        clone_url = f"https://x-access-token:{token}@github.com/{owner}/{repo_name}.git"
+        try:
+            subprocess.run(
+                ["git", "clone", "--quiet", clone_url, tmp],
+                check=True, timeout=60,
+                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            )
+            result = subprocess.run(
+                ["git", "-C", tmp, "log", "--shortstat", "--pretty=oneline"],
+                check=True, timeout=30, capture_output=True, text=True,
+            )
+            for line in result.stdout.splitlines():
+                if "insertion" in line or "deletion" in line:
+                    parts = line.strip().split(", ")
+                    for part in parts:
+                        if "insertion" in part:
+                            total_added += int(part.split()[0])
+                        elif "deletion" in part:
+                            total_deleted += int(part.split()[0])
+        except Exception as e:
+            print(f"Warning: could not compute lines changed for {repo_name}: {e}", file=sys.stderr)
+    return total_added, total_deleted
+
+lines_added_total, lines_deleted_total = 0, 0
+for r in repos:
+    a, d = get_lines_changed(login, r["name"], TOKEN)
+    lines_added_total += a
+    lines_deleted_total += d
+lines_changed_total = lines_added_total + lines_deleted_total
+
+# --- Step 3: render SVGs ---
 os.makedirs("assets", exist_ok=True)
 
-STATS_SVG = f'''<svg width="480" height="190" viewBox="0 0 480 190" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="480" height="190" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
-  <text x="24" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#EDE3FF" font-weight="bold">{name}'s GitHub Stats</text>
+name_escaped = name.replace("'", "&#39;")
+
+STATS_SVG = """<svg width="480" height="280" viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="480" height="280" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
+  <text x="24" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#EDE3FF" font-weight="bold">""" + name_escaped + """&#39;s GitHub Stats</text>
   <line x1="24" y1="48" x2="456" y2="48" stroke="#4ECDC4" stroke-opacity="0.3"/>
 
-  <text x="24" y="80" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">★ Total Stars:</text>
-  <text x="456" y="80" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">{total_stars:,}</text>
+  <text x="24" y="80" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Total Stars:</text>
+  <text x="456" y="80" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{total_stars:,}" + """</text>
 
-  <text x="24" y="105" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">⑂ Total Forks:</text>
-  <text x="456" y="105" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">{total_forks:,}</text>
+  <text x="24" y="105" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Total Forks:</text>
+  <text x="456" y="105" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{total_forks:,}" + """</text>
 
-  <text x="24" y="130" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">✓ Total Contributions:</text>
-  <text x="456" y="130" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">{total_contributions:,}</text>
+  <text x="24" y="130" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Total Contributions:</text>
+  <text x="456" y="130" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{total_contributions:,}" + """</text>
 
-  <text x="24" y="155" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">◆ Public Repos:</text>
-  <text x="456" y="155" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">{total_repos:,}</text>
+  <text x="24" y="155" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Public Repos:</text>
+  <text x="456" y="155" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{total_repos:,}" + """</text>
 
-  <text x="24" y="180" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">◈ Followers:</text>
-  <text x="456" y="180" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">{followers:,}</text>
-</svg>'''
+  <text x="24" y="180" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Followers:</text>
+  <text x="456" y="180" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{followers:,}" + """</text>
+
+  <text x="24" y="205" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Lines of Code Changed:</text>
+  <text x="456" y="205" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{lines_changed_total:,}" + """</text>
+
+  <text x="24" y="230" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4">Repos Contributed To:</text>
+  <text x="456" y="230" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" fill="#ffffff">""" + f"{repos_contributed_to:,}" + """</text>
+</svg>"""
 
 lang_rows = ""
 y_pos = 66
@@ -148,19 +197,18 @@ for lname, size in top_langs:
     pct = size / total_lang_bytes * 100
     color = lang_colors.get(lname, "#888888")
     bar_width = 260 * (pct / 100)
-    lang_rows += f'''
-  <text x="24" y="{y_pos}" font-family="ui-monospace, monospace" font-size="12" fill="#EDE3FF">{lname}</text>
-  <text x="456" y="{y_pos}" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" fill="#cfd8e3">{pct:.1f}%</text>
-  <rect x="24" y="{y_pos + 6}" width="260" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
-  <rect x="24" y="{y_pos + 6}" width="{bar_width:.1f}" height="6" rx="3" fill="{color}"/>'''
+    lang_rows += """
+  <text x="24" y=\"""" + str(y_pos) + """\" font-family="ui-monospace, monospace" font-size="12" fill="#EDE3FF">""" + lname + """</text>
+  <text x="456" y=\"""" + str(y_pos) + """\" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" fill="#cfd8e3">""" + f"{pct:.1f}%" + """</text>
+  <rect x="24" y=\"""" + str(y_pos + 6) + """\" width="260" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="24" y=\"""" + str(y_pos + 6) + """\" width=\"""" + f"{bar_width:.1f}" + """\" height="6" rx="3" fill=\"""" + color + """\"/>"""
     y_pos += 30
 
-LANGS_SVG = f'''<svg width="480" height="{y_pos + 20}" viewBox="0 0 480 {y_pos + 20}" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="480" height="{y_pos + 20}" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
+LANGS_SVG = """<svg width="480" height=\"""" + str(y_pos + 20) + """\" viewBox="0 0 480 """ + str(y_pos + 20) + """" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="480" height=\"""" + str(y_pos + 20) + """\" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
   <text x="24" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#EDE3FF" font-weight="bold">Most Used Languages</text>
-  <line x1="24" y1="48" x2="456" y2="48" stroke="#4ECDC4" stroke-opacity="0.3"/>
-  {lang_rows}
-</svg>'''
+  <line x1="24" y1="48" x2="456" y2="48" stroke="#4ECDC4" stroke-opacity="0.3"/>""" + lang_rows + """
+</svg>"""
 
 with open("assets/stats.svg", "w") as f:
     f.write(STATS_SVG)
@@ -168,5 +216,5 @@ with open("assets/stats.svg", "w") as f:
 with open("assets/languages.svg", "w") as f:
     f.write(LANGS_SVG)
 
-print(f"Done. Stars={total_stars} Forks={total_forks} Contributions={total_contributions} Repos={total_repos} Followers={followers}")
+print(f"Done. Stars={total_stars} Forks={total_forks} Contributions={total_contributions} Repos={total_repos} Followers={followers} LinesChanged={lines_changed_total} ReposContributedTo={repos_contributed_to}")
 print(f"Top languages: {top_langs}")
