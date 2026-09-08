@@ -169,6 +169,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 | 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | `Python` `RAGAS` `DeepEval` `PostgreSQL` | [Visit](https://evalos-dashboard.onrender.com/) | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
 | 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | `Python` `FastAPI` `React` `SHAP` `MLflow` | [Visit](https://clinical-risk-prediction-explainabi.vercel.app/) | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
 
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/systems-banner.svg" width="100%"/>
+
 ### ⚙️ Systems & Infrastructure
 
 | Project | Description | Tech | Live Demo | Repo |
