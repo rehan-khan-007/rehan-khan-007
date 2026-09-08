@@ -191,7 +191,7 @@
       <text x="800" y="622" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
       <text x="1320" y="622" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
     </g>
-    <g font-size="20">
+    <g font-size="19">
       <text x="280" y="655" fill="#4ECDC4" opacity="0.72">Steering one qubit with shaped microwave pulses,</text>
       <text x="280" y="683" fill="#4ECDC4" opacity="0.72">corrected from its own measured state.</text>
       <text x="800" y="655" fill="#B794F6" opacity="0.78">Routing state between LLM agents and tools,</text>
