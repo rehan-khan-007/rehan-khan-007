@@ -215,7 +215,7 @@ Clinical Risk Platform &nbsp;<img src="https://progress-bar.xyz/70/?width=260&co
 Cloud-Native Platform &nbsp;&nbsp;<img src="https://progress-bar.xyz/60/?width=265&color=FFD93D" />
 </p>
 
-<sub>$\color{#FFD93D}{\textsf{Not a highlight reel: an honest, live snapshot of where each system actually stands, updated as they evolve.}}$</sub>
+<sub>$\color{#9333EA}{\textsf{Not a highlight reel: an honest, live snapshot of where each system actually stands, updated as they evolve.}}$</sub>
 
 ---
 
