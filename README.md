@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=200&section=header&text=Rehan%20Khan&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=SDE%20%7C%20AI%2FML%20Engineer%20%7C%20Systems%20%26%20Control&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/hero-banner.svg" width="100%"/>
 
 <p align="center">
   <a href="#-quantum-optimal-control-of-spin-systems">🔬 Quantum Control</a> &nbsp;·&nbsp;
