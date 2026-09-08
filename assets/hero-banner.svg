@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 800" width="1600" height="800">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" width="1600" height="900">
   <defs>
     <radialGradient id="depth" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#1a0f2e" stop-opacity="0.35"></stop>
@@ -55,7 +55,7 @@
     <circle cx="1524" cy="464" r="1" opacity="0.1"></circle>
     <circle cx="86" cy="428" r="1" opacity="0.12"></circle>
     <circle cx="742" cy="292" r="1" opacity="0.1"></circle>
-    <circle cx="1330" cy="738" r="1.5" opacity="0.14"></circle>
+    <circle cx="1330" cy="812" r="1.5" opacity="0.14"></circle>
   </g>
   
 
@@ -68,7 +68,7 @@
       <animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;0.5625;1" values="-100 0;-100 0;1700 0;1700 0" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1"></animateTransform>
     </line>
   </g>
-  <clipPath id="bannerClip"><rect x="40" y="0" width="1520" height="800"></rect></clipPath>
+  <clipPath id="bannerClip"><rect x="40" y="0" width="1520" height="900"></rect></clipPath>
 
   <g fill="none" stroke="#4ECDC4" stroke-width="1.5" opacity="0.6">
     <circle cx="280" cy="350" r="140"></circle>
@@ -187,22 +187,22 @@
       <text x="800" y="160" opacity="0.72">a cluster routing around a dead pod — one pattern, three scales.</text>
     </g>
     <g font-size="20" letter-spacing="2">
-      <text x="280" y="622" fill="#4ECDC4" opacity="0.85">QUANTUM CONTROL</text>
-      <text x="800" y="622" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
-      <text x="1320" y="622" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
+      <text x="280" y="650" fill="#4ECDC4" opacity="0.85">QUANTUM CONTROL</text>
+      <text x="800" y="650" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
+      <text x="1320" y="650" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
     </g>
     <g font-size="23">
-      <text x="280" y="646" fill="#4ECDC4" opacity="0.72">Steering one qubit with</text>
-      <text x="280" y="676" fill="#4ECDC4" opacity="0.72">shaped microwave pulses,</text>
-      <text x="280" y="706" fill="#4ECDC4" opacity="0.72">corrected from measured state.</text>
-      <text x="800" y="646" fill="#B794F6" opacity="0.78">Routing state between LLM</text>
-      <text x="800" y="676" fill="#B794F6" opacity="0.78">agents and tools, re-planning</text>
-      <text x="800" y="706" fill="#B794F6" opacity="0.78">each hop from the last result.</text>
-      <text x="1320" y="646" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
-      <text x="1320" y="676" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
-      <text x="1320" y="706" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
-      <text x="800" y="738" fill="#6FA8FF" opacity="0.85" font-size="20">The line threading all three diagrams is that loop's signal path:</text>
-      <text x="800" y="763" fill="#6FA8FF" opacity="0.85" font-size="20">a pulse travels it as control hands off from one scale to the next.</text>
+      <text x="280" y="692" fill="#4ECDC4" opacity="0.72">Steering one qubit with</text>
+      <text x="280" y="726" fill="#4ECDC4" opacity="0.72">shaped microwave pulses,</text>
+      <text x="280" y="760" fill="#4ECDC4" opacity="0.72">corrected from measured state.</text>
+      <text x="800" y="692" fill="#B794F6" opacity="0.78">Routing state between LLM</text>
+      <text x="800" y="726" fill="#B794F6" opacity="0.78">agents and tools, re-planning</text>
+      <text x="800" y="760" fill="#B794F6" opacity="0.78">each hop from the last result.</text>
+      <text x="1320" y="692" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
+      <text x="1320" y="726" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
+      <text x="1320" y="760" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
+      <text x="800" y="812" fill="#6FA8FF" opacity="0.85" font-size="20">The line threading all three diagrams is that loop's signal path:</text>
+      <text x="800" y="842" fill="#6FA8FF" opacity="0.85" font-size="20">a pulse travels it as control hands off from one scale to the next.</text>
     </g>
 
     <g font-size="18" letter-spacing="1">
