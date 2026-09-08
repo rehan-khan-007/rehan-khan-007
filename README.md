@@ -178,6 +178,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 | 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | `TypeScript` `Node.js` `Redis` `Kubernetes` | — | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
 | ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | `Docker` `Kubernetes` `Node.js` `WebSockets` | — | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
 
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/mtp-banner.svg" width="100%"/>
+
 ### 🎓 Academic & Research
 
 | Project | Description | Tech | Live Demo | Repo |
@@ -186,8 +188,6 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 | 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | `Python` `PyTorch` | — | — |
 
 ---
-
-<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/mtp-banner.svg" width="100%"/>
 
 ### 🧬 Quantum Optimal Control of Spin Systems
 **M.Tech Thesis — IIT Bombay** · advisor: Prof. Navin Khaneja
