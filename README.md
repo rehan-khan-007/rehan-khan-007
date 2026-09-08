@@ -166,8 +166,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 | Project | Description | Tech | Live Demo | Repo |
 |---|---|---|---|---|
-| 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | `Python` `RAGAS` `DeepEval` `PostgreSQL` | [Visit](https://evalos-dashboard.onrender.com/) | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
-| 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | `Python` `FastAPI` `React` `SHAP` `MLflow` | [Visit](https://clinical-risk-prediction-explainabi.vercel.app/) | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
+| 📊 **EvalOS** | LLM/RAG evaluation & benchmarking framework — hybrid retrieval, cross-encoder reranking, claim-level hallucination attribution, LLM-as-a-Judge scoring | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![RAGAS](https://img.shields.io/badge/RAGAS-8B5CF6?style=flat-square) ![DeepEval](https://img.shields.io/badge/DeepEval-EC4899?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | [Visit](https://evalos-dashboard.onrender.com/) | [Repo](https://github.com/rehan-khan-007/Eval-OS) |
+| 🩺 **Clinical Risk Prediction & Explainability Platform** | Full-stack ML platform for cardiovascular risk prediction — SHAP explanations, calibrated probabilities, subgroup fairness auditing | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![SHAP](https://img.shields.io/badge/SHAP-F59E0B?style=flat-square) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square) | [Visit](https://clinical-risk-prediction-explainabi.vercel.app/) | [Repo](https://github.com/rehan-khan-007/Clinical-Risk-Prediction-Explainability-Platform-) |
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/systems-banner.svg" width="100%"/>
 
@@ -175,8 +175,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 | Project | Description | Tech | Live Demo | Repo |
 |---|---|---|---|---|
-| 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | `TypeScript` `Node.js` `Redis` `Kubernetes` | — | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
-| ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | `Docker` `Kubernetes` `Node.js` `WebSockets` | — | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
+| 🔀 **Workflow Orchestration Engine** | DAG-based dependency resolution across concurrent workflows — Redis-backed queues, worker leases/heartbeats, Kubernetes-parallel execution | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) | — | [Repo](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine) |
+| ☁️ **Cloud-Native Code Execution Platform** | Multi-tenant Kubernetes sandboxes with a browser-based terminal (xterm.js + WebSockets) and automated pod/service provisioning | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-111827?style=flat-square) | — | [Repo](https://github.com/rehan-khan-007/cloud-native-code-execution-platform) |
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/mtp-banner.svg" width="100%"/>
 
@@ -184,8 +184,8 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 | Project | Description | Tech | Live Demo | Repo |
 |---|---|---|---|---|
-| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | `Python` `Signal Processing` `SVM` | — | — |
-| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | `Python` `PyTorch` | — | — |
+| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Signal Processing](https://img.shields.io/badge/Signal%20Processing-0EA5E9?style=flat-square) ![SVM](https://img.shields.io/badge/SVM-14B8A6?style=flat-square) | — | — |
+| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | — | — |
 
 ---
 
