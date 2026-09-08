@@ -191,7 +191,7 @@
       <text x="800" y="622" fill="#B794F6" opacity="0.9">AGENT ORCHESTRATION</text>
       <text x="1320" y="622" fill="#E0A87E" opacity="0.95">DISTRIBUTED SYSTEMS</text>
     </g>
-    <g font-size="14">
+    <g font-size="16">
       <text x="280" y="648" fill="#4ECDC4" opacity="0.72">Steering one qubit with</text>
       <text x="280" y="668" fill="#4ECDC4" opacity="0.72">shaped microwave pulses,</text>
       <text x="280" y="688" fill="#4ECDC4" opacity="0.72">corrected from measured state.</text>
@@ -201,7 +201,7 @@
       <text x="1320" y="648" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
       <text x="1320" y="668" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
       <text x="1320" y="688" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
-      <text x="800" y="726" fill="#6FA8FF" opacity="0.85" font-size="13">The line threading all three diagrams is that loop's signal path: a pulse travels it as control hands off from one scale to the next.</text>
+      <text x="800" y="726" fill="#6FA8FF" opacity="0.85" font-size="15">The line threading all three diagrams is that loop's signal path: a pulse travels it as control hands off from one scale to the next.</text>
     </g>
 
     <g font-size="18" letter-spacing="1">
