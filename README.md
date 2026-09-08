@@ -153,7 +153,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 - 📊 **Built-in evaluation & observability** — OpenTelemetry + Langfuse instrumentation across every run
 - ☁️ **Deployed, not just built** — Next.js frontend on Vercel, FastAPI backend on Render, Neon Postgres (pgvector)
 
-`Python` `LangGraph` `FastAPI` `PostgreSQL/pgvector` `Redis` `OpenTelemetry` `Langfuse` `Next.js`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL/pgvector](https://img.shields.io/badge/PostgreSQL%2Fpgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square) ![Langfuse](https://img.shields.io/badge/Langfuse-0EA5E9?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
 **→ [Live Demo](https://agent-os-weld.vercel.app/) · [Explore the repo](https://github.com/rehan-khan-007/Agent-OS)**
 
