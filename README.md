@@ -213,10 +213,10 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 ### 🎓 Academic & Research
 
-| Project | Description | Tech | Live Demo | Repo |
-|---|---|---|---|---|
-| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Signal Processing](https://img.shields.io/badge/Signal%20Processing-0EA5E9?style=flat-square) ![SVM](https://img.shields.io/badge/SVM-14B8A6?style=flat-square) | — | [📄 Report](https://github.com/rehan-khan-007/rehan-khan-007/blob/main/reports/BCI-Wheelchair-Final-Year-Project.pdf) |
-| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | — | [📄 Report](https://github.com/rehan-khan-007/rehan-khan-007/blob/main/reports/CS725-Batch-Size-Generalization.pdf) |
+| Project | Description | Tech | Repo |
+|---|---|---|---|
+| 🧠 **ML-Based BCI Wheelchair System** *(B.Tech Project — Parul University)* | SSVEP-based BCI pipeline decoding 64-channel EEG into directional commands across 35 subjects, via SVM classification on FFT-extracted flicker-frequency features | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Signal Processing](https://img.shields.io/badge/Signal%20Processing-0EA5E9?style=flat-square) ![SVM](https://img.shields.io/badge/SVM-14B8A6?style=flat-square) | [📄 Report](https://github.com/rehan-khan-007/rehan-khan-007/blob/main/reports/BCI-Wheelchair-Final-Year-Project.pdf) |
+| 📉 **Batch Size & Generalization** *(CS 725, IIT Bombay)* | Course research project studying the effect of batch size on generalization in deep learning models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | [📄 Report](https://github.com/rehan-khan-007/rehan-khan-007/blob/main/reports/CS725-Batch-Size-Generalization.pdf) |
 
 ---
 
