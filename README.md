@@ -27,6 +27,12 @@
 
 ---
 
+## 🧭 Quick Navigation
+
+[👋 About](#about-me) · [🛠️ Tech Stack](#tech-stack) · [🚀 Projects](#featured-projects) · [📊 Progress](#build-progress) · [📈 Stats](#github-stats) · [🏆 Trophies](#trophies) · [🧭 Approach](#unique-approach) · [🗺️ Roadmap](#focus-roadmap) · [📫 Contact](#get-in-touch)
+
+---
+
 ## 💼 Status
 
 <p align="center">
@@ -38,6 +44,7 @@
 
 ---
 
+<a name="about-me"></a>
 ## 👨‍💻 About Me
 
 ```ts
@@ -85,6 +92,7 @@ const philosophy = () => ({
 
 ---
 
+<a name="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 <p align="center"><strong>Languages</strong></p>
@@ -152,6 +160,7 @@ const philosophy = () => ({
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
+<a name="featured-projects"></a>
 ## 🚀 Featured Projects
 
 ### ⭐ Flagship: AgentOS
@@ -211,6 +220,7 @@ Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and P
 
 ---
 
+<a name="build-progress"></a>
 ## 📊 Build Progress
 
 <p align="left">
@@ -250,6 +260,7 @@ $\color{#FF6B6B}{\normalsize{\textsf{Not a highlight reel: an honest, live snaps
 
 ---
 
+<a name="unique-approach"></a>
 ## 🧭 Unique Approach
 
 | Background | Applied As |
@@ -261,6 +272,7 @@ $\color{#FF6B6B}{\normalsize{\textsf{Not a highlight reel: an honest, live snaps
 
 ---
 
+<a name="focus-roadmap"></a>
 ## 🗺️ Focus Roadmap
 
 ```mermaid
@@ -286,6 +298,7 @@ graph TB
 
 ---
 
+<a name="github-stats"></a>
 ## 📈 GitHub Stats
 
 <p align="center">
@@ -307,6 +320,7 @@ graph TB
 
 ---
 
+<a name="trophies"></a>
 ## 🏆 Trophies
 
 <p align="center">
@@ -323,6 +337,7 @@ graph TB
 
 ---
 
+<a name="get-in-touch"></a>
 ## 📫 Get In Touch
 
 - **📧 Email** — [bro39404k@gmail.com](mailto:bro39404k@gmail.com) — for professional inquiries
