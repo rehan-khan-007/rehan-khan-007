@@ -15,7 +15,7 @@
   <img src="https://komarev.com/ghpvc/?username=rehan-khan-007&label=Profile%20Views&color=9333EA&style=flat-square" />
   <img src="https://img.shields.io/github/followers/rehan-khan-007?label=Followers&style=flat-square&color=blue" />
   <img src="https://img.shields.io/badge/M.Tech-IIT%20Bombay-9333EA?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Systems-4ECDC4?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Systems-FFD93D?style=flat-square" />
 </p>
 
 <p align="center">
