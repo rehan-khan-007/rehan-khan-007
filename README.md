@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rehan-khan-007&label=Profile%20Views&color=9333EA&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/rehan-khan-007?label=Followers&style=flat-square&color=F472B6" />
+  <img src="https://img.shields.io/github/followers/rehan-khan-007?label=Followers&style=flat-square&color=gray" />
   <img src="https://img.shields.io/badge/M.Tech-IIT%20Bombay-9333EA?style=flat-square" />
   <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Systems-FFD93D?style=flat-square" />
 </p>
@@ -30,10 +30,10 @@
 ## 💼 Status
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-6366F1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-84CC16?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-F59E0B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🌐_Remote-Preferred-0EA5E9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-4ECDC4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌐_Remote-Preferred-4ECDC4?style=for-the-badge" />
 </p>
 
 ---
