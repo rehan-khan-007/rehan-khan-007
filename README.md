@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/typing-banner.svg" width="100%"/>
+  <p align="center"><img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/typing-banner.svg" width="65%"/></p>
 </p>
 
 <p align="center">
