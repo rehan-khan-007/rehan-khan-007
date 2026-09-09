@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9333EA&center=true&vCenter=true&width=650&lines=M.Tech%2C+Systems+%26+Control+Engineering+%40+IIT+Bombay;Building+evaluation-driven+AI+agent+systems;Quantum+optimal+control+of+spin+systems;Distributed+systems+%2B+ML+%2B+control+theory" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9333EA&center=true&vCenter=true&width=780&lines=M.Tech%2C+Systems+%26+Control+Engineering+%40+IIT+Bombay;Building+evaluation-driven+AI+agent+systems;Quantum+optimal+control+of+spin+systems;Distributed+systems+%2B+ML+%2B+control+theory" alt="Typing SVG" />
 </p>
 
 <p align="center">
