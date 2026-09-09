@@ -29,7 +29,9 @@
 
 ## 🧭 Quick Navigation
 
+<p align="center">
 [👋 About](#about-me) · [🛠️ Tech Stack](#tech-stack) · [🚀 Projects](#featured-projects) · [📊 Progress](#build-progress) · [📈 Stats](#github-stats) · [🏆 Trophies](#trophies) · [🧭 Approach](#unique-approach) · [🗺️ Roadmap](#focus-roadmap) · [📫 Contact](#get-in-touch)
+</p>
 
 ---
 
