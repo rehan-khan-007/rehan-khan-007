@@ -1,5 +1,4 @@
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/hero-banner.svg" width="100%"/>
-
 <p align="center">
   <a href="#quantum-control">🔬 Quantum Control</a> &nbsp;·&nbsp;
   <a href="#aiml-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
