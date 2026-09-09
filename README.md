@@ -1,8 +1,8 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/hero-banner.svg" width="100%"/>
-  <a href="#quantum-control">🔬 $\color{#4ECDC4}{\textsf{Quantum Control}}$</a> &nbsp;·&nbsp;
-  <a href="#aiml-systems">🤖 $\color{#9333EA}{\textsf{AI/ML Systems}}$</a> &nbsp;·&nbsp;
-  <a href="#systems-infrastructure">⚙️ $\color{#E0A87E}{\textsf{Infrastructure}}$</a>
+  <a href="#quantum-control">🔬 Quantum Control</a> &nbsp;·&nbsp;
+  <a href="#aiml-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
+  <a href="#systems-infrastructure">⚙️ Infrastructure</a>
 </div>
 
 <br/>
