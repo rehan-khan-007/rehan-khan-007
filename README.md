@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/hero-banner.svg" width="100%"/>
 
 <p align="center">
-  <a href="#-quantum-optimal-control-of-spin-systems">🔬 Quantum Control</a> &nbsp;·&nbsp;
-  <a href="#-aiml--agent-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
-  <a href="#-systems--infrastructure">⚙️ Infrastructure</a>
+  <a href="#quantum-control">🔬 Quantum Control</a> &nbsp;·&nbsp;
+  <a href="#aiml-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
+  <a href="#systems-infrastructure">⚙️ Infrastructure</a>
 </p>
 
 
@@ -161,6 +161,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/ai-ml-agent-systems-banner.svg" width="100%"/>
 
+<a name="aiml-systems"></a>
 ### 🤖 AI/ML & Agent Systems
 
 | Project | Description | Tech | Live Demo | Repo |
@@ -170,6 +171,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/systems-banner.svg" width="100%"/>
 
+<a name="systems-infrastructure"></a>
 ### ⚙️ Systems & Infrastructure
 
 | Project | Description | Tech | Live Demo | Repo |
@@ -188,6 +190,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 ---
 
+<a name="quantum-control"></a>
 ### 🧬 Quantum Optimal Control of Spin Systems
 **M.Tech Thesis — IIT Bombay** · advisor: Prof. Navin Khaneja
 
