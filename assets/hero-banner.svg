@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 830" width="1600" height="830">
-  <rect x="0" y="0" width="1600" height="830" fill="#0d0d12"></rect>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 854" width="1600" height="854">
+  <rect x="0" y="0" width="1600" height="854" fill="#0d0d12"></rect>
   <defs>
     <radialGradient id="depth" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#1a0f2e" stop-opacity="0.35"></stop>
@@ -202,7 +202,8 @@
       <text x="1320" y="688" fill="#E0A87E" opacity="0.85">Watching pods across a</text>
       <text x="1320" y="714" fill="#E0A87E" opacity="0.85">cluster, detecting failure</text>
       <text x="1320" y="740" fill="#E0A87E" opacity="0.85">and rerouting unnoticed.</text>
-      <text x="800" y="792" fill="#6FA8FF" opacity="0.85" font-size="18">The line threading all three diagrams is that loop's signal path: a pulse travels it as control hands off from one scale to the next.</text>
+      <text x="800" y="792" fill="#6FA8FF" opacity="0.85" font-size="20">The line threading all three diagrams is that loop's signal path:</text>
+      <text x="800" y="820" fill="#6FA8FF" opacity="0.85" font-size="20">a pulse travels it as control hands off from one scale to the next.</text>
     </g>
 
     <g font-size="18" letter-spacing="1">
