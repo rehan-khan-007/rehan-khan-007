@@ -308,7 +308,6 @@ graph TB
 
 <p align="center">
   <img src="https://img.shields.io/badge/🎓_M.Tech-2026_Batch-9333EA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/💼_Open_to-Placements-4ECDC4?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-FF6B6B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/📍_Based_in-Mumbai%2C_India-FFD93D?style=for-the-badge&labelColor=000" />
   <img src="https://img.shields.io/badge/🤝_Collaborations-Open-9333EA?style=for-the-badge" />
