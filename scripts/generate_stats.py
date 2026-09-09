@@ -8,7 +8,7 @@ and render_svg.py for the actual logic.
 import os
 
 from fetch_stats import fetch_basic_info, fetch_total_contributions, fetch_total_loc
-from render_svg import render_stats_svg, render_langs_svg
+from render_svg import render_stats_svg, render_langs_svg, render_trophies_svg
 
 info = fetch_basic_info()
 total_contributions = fetch_total_contributions(info["created_at"])
@@ -38,6 +38,17 @@ with open("assets/stats.svg", "w") as f:
 
 with open("assets/languages.svg", "w") as f:
     f.write(langs_svg)
+
+trophies_svg = render_trophies_svg(
+    total_stars=info["total_stars"],
+    followers=info["followers"],
+    total_contributions=total_contributions,
+    total_repos=info["total_repos"],
+    total_loc=total_loc,
+)
+
+with open("assets/trophies.svg", "w") as f:
+    f.write(trophies_svg)
 
 print(
     f"Done. Stars={info['total_stars']} Forks={info['total_forks']} "

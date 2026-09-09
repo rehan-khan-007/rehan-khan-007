@@ -296,7 +296,7 @@ graph TB
 ## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rehan-khan-007&theme=darkhub&no-frame=true&row=1&column=6" />
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/trophies.svg" />
 </p>
 
 ---
