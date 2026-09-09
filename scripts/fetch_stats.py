@@ -43,6 +43,7 @@ query($from: DateTime!, $to: DateTime!) {
       totalIssueContributions
       totalPullRequestContributions
       totalPullRequestReviewContributions
+      totalRepositoryContributions
       restrictedContributionsCount
     }
   }
@@ -104,6 +105,7 @@ def fetch_total_contributions(created_at):
                 + c["totalIssueContributions"]
                 + c["totalPullRequestContributions"]
                 + c["totalPullRequestReviewContributions"]
+                + c["totalRepositoryContributions"]
                 + c["restrictedContributionsCount"]
             )
         except Exception as e:
