@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/hero-banner.svg" width="100%"/>
-<p align="center">
+<div align="center">
   <a href="#quantum-control">🔬 Quantum Control</a> &nbsp;·&nbsp;
   <a href="#aiml-systems">🤖 AI/ML Systems</a> &nbsp;·&nbsp;
   <a href="#systems-infrastructure">⚙️ Infrastructure</a>
-</p>
+</div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/typing-banner.svg" width="100%"/>
