@@ -27,6 +27,18 @@
 
 ---
 
+## 💼 Status
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🎓_M.Tech-2026_Batch-9333EA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-9333EA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-4ECDC4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌐_Remote-Preferred-FF6B6B?style=for-the-badge" />
+</p>
+
+---
+
 ## 👨‍💻 About Me
 
 ```ts
@@ -300,18 +312,6 @@ graph TB
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/trophies.svg" />
-</p>
-
----
-
-## 💼 Status
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🎓_M.Tech-2026_Batch-9333EA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-FF6B6B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-9333EA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-4ECDC4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🌐_Remote-Preferred-FF6B6B?style=for-the-badge" />
 </p>
 
 ---
