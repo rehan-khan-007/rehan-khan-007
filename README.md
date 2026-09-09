@@ -30,7 +30,15 @@
 ## 🧭 Quick Navigation
 
 <p align="center">
-[👋 About](#about-me) · [🛠️ Tech Stack](#tech-stack) · [🚀 Projects](#featured-projects) · [📊 Progress](#build-progress) · [📈 Stats](#github-stats) · [🏆 Trophies](#trophies) · [🧭 Approach](#unique-approach) · [🗺️ Roadmap](#focus-roadmap) · [📫 Contact](#get-in-touch)
+  <a href="#about-me">👋 About</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">🛠️ Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#featured-projects">🚀 Projects</a> &nbsp;·&nbsp;
+  <a href="#build-progress">📊 Progress</a> &nbsp;·&nbsp;
+  <a href="#github-stats">📈 Stats</a> &nbsp;·&nbsp;
+  <a href="#trophies">🏆 Trophies</a> &nbsp;·&nbsp;
+  <a href="#unique-approach">🧭 Approach</a> &nbsp;·&nbsp;
+  <a href="#focus-roadmap">🗺️ Roadmap</a> &nbsp;·&nbsp;
+  <a href="#get-in-touch">📫 Contact</a>
 </p>
 
 ---
