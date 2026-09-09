@@ -31,7 +31,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-6366F1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-C2410C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-556B2F?style=for-the-badge" />
   <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-F59E0B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🌐_Remote-Preferred-0EA5E9?style=for-the-badge" />
 </p>
