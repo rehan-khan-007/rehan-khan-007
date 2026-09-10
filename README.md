@@ -73,7 +73,11 @@
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/particle-network.svg" width="100%"/>
 
-**M.Tech student at IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling, while researching quantum optimal control.**
+<p align="center">
+
+$\color{#9333EA}{\textsf{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling, with ongoing research in quantum optimal control.}}}$
+
+</p>
 
 **More on my background:** [RIMC](https://rimc.edu.in) · [NDA](http://nda.nic.in) · [Research Guide: Prof. Navin Khaneja](https://scholar.google.com/citations?user=UV8w0EsAAAAJ&hl=en)
 
