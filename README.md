@@ -201,9 +201,9 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 <a name="quantum-control"></a>
 ### 🧬 Quantum Optimal Control of Spin Systems
-**M.Tech Thesis — IIT Bombay** · advisor: Prof. Navin Khaneja
+**M.Tech Thesis, IIT Bombay** · advisor: Prof. Navin Khaneja
 
-Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and Pauli matrices, simulating Rabi oscillations under magnetic field actuation. Implementing the GRAPE optimal control algorithm for high-fidelity quantum state preparation, extending toward Lyapunov-based feedback control and stochastic noise robustness — comparing GRAPE, CRAB, and Lyapunov control protocols on fidelity, convergence, and noise tolerance.
+Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and Pauli matrices, simulating Rabi oscillations under magnetic field actuation. Implementing the GRAPE optimal control algorithm for high-fidelity quantum state preparation, extending toward Lyapunov-based feedback control and stochastic noise robustness, and comparing GRAPE, CRAB, and Lyapunov control protocols on fidelity, convergence, and noise tolerance.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Optimal Control](https://img.shields.io/badge/Optimal%20Control-6D28D9?style=flat-square) ![GRAPE](https://img.shields.io/badge/GRAPE-0EA5E9?style=flat-square) ![Lyapunov Methods](https://img.shields.io/badge/Lyapunov%20Methods-F59E0B?style=flat-square)
 
@@ -256,7 +256,7 @@ $\color{#FF6B6B}{\normalsize{\textsf{Not a highlight reel: an honest, live snaps
 |---|---|
 | 🔬 **Control Theory** | Optimal & feedback control framing for agent orchestration and system reliability |
 | 🧠 **AI/ML Engineering** | RAG pipelines, agent evals, and observability for production LLM systems |
-| ⚙️ **Systems Engineering** | Fault-tolerant, distributed execution — from Kubernetes pods to agent runtimes |
+| ⚙️ **Systems Engineering** | Fault-tolerant, distributed execution: from Kubernetes pods to agent runtimes |
 | 🎖️ **Military Academy Discipline** | Structured, benchmarked execution over ad-hoc iteration |
 
 ---
@@ -315,11 +315,11 @@ graph TB
 <a name="get-in-touch"></a>
 ## 📫 Get In Touch
 
-- **📧 Email** — [bro39404k@gmail.com](mailto:bro39404k@gmail.com) — for professional inquiries
-- **💼 LinkedIn** — [rehan-khan-india](https://www.linkedin.com/in/rehan-khan-india) — let's connect professionally
-- **🐦 X** — [@rehan_khan__007](https://x.com/rehan_khan__007)
-- **💻 GitHub** — [rehan-khan-007](https://github.com/rehan-khan-007)
+- **📧 Email:** [bro39404k@gmail.com](mailto:bro39404k@gmail.com), for professional inquiries
+- **💼 LinkedIn:** [rehan-khan-india](https://www.linkedin.com/in/rehan-khan-india), let's connect professionally
+- **🐦 X:** [@rehan_khan__007](https://x.com/rehan_khan__007)
+- **💻 GitHub:** [rehan-khan-007](https://github.com/rehan-khan-007)
 
-<p align="center"><sub>"Systems that learn, control loops that hold." — M.Tech, Systems and Control Engineering · IIT Bombay</sub></p>
+<p align="center"><sub>"Systems that learn, control loops that hold." (M.Tech, Systems and Control Engineering · IIT Bombay)</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=120&section=footer" width="100%"/>
