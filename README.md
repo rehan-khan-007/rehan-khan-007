@@ -46,10 +46,10 @@
 ## 💼 Status
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE-F97316?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-10B981?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯_Targeting-AI%2FML_%7C_SDE_%7C_FDE-F97316?style=for-the-badge" />
   <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-F43F5E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🌐_Remote-Preferred-3B82F6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🤝_Collaborations-Open-10B981?style=for-the-badge" />
 </p>
 
 ---
