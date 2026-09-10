@@ -71,6 +71,10 @@
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/particle-network.svg" width="100%"/>
+
+**M.Tech student at IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling — while researching quantum optimal control.**
+
 <div align="center">
 
 I'm Rehan — an M.Tech student at IIT Bombay working at the intersection of $\color{#06B6D4}{\texttt{AI systems}}$, $\color{#D946EF}{\texttt{distributed infrastructure}}$, and $\color{#F97316}{\texttt{control theory}}$.
