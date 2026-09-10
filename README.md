@@ -75,7 +75,7 @@
 
 <p align="center">
 
-$\color{#9333EA}{\textsf{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling, with ongoing research in quantum optimal control.}}}$
+$\color{#EC4899}{\textsf{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling, with ongoing research in quantum optimal control.}}}$
 
 </p>
 
