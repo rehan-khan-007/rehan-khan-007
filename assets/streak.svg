@@ -1,0 +1,22 @@
+<svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="720" height="240" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
+
+  <line x1="240" y1="15" x2="240" y2="225" stroke="#ffffff" stroke-opacity="0.12"/>
+  <line x1="480" y1="15" x2="480" y2="225" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <text x="120" y="90" text-anchor="middle" font-size="20">📈</text>
+  <text x="120" y="130" text-anchor="middle" font-family="ui-monospace, monospace" font-size="34" font-weight="bold" fill="#6FA8FF">491</text>
+  <text x="120" y="165" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" fill="#6FA8FF">Total Contributions</text>
+  <text x="120" y="195" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#4ECDC4" opacity="0.8">2024 - Present</text>
+
+  <text x="360" y="51" text-anchor="middle" font-size="28">🔥</text>
+  <circle cx="360" cy="103" r="55" fill="none" stroke="#9333EA" stroke-width="5" opacity="0.9"/>
+  <text x="360" y="116" text-anchor="middle" font-family="ui-monospace, monospace" font-size="40" font-weight="bold" fill="#B794F6">0</text>
+  <text x="360" y="187" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" font-weight="bold" fill="#B794F6">Current Streak</text>
+  <text x="360" y="211" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4" opacity="0.8">No streak yet</text>
+
+  <text x="600" y="90" text-anchor="middle" font-size="20">🏆</text>
+  <text x="600" y="130" text-anchor="middle" font-family="ui-monospace, monospace" font-size="34" font-weight="bold" fill="#6FA8FF">10</text>
+  <text x="600" y="165" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" fill="#6FA8FF">Longest Streak</text>
+  <text x="600" y="195" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#4ECDC4" opacity="0.8">Aug 20 - 29</text>
+</svg>
