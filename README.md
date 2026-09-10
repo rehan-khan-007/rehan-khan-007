@@ -75,6 +75,8 @@
 
 **M.Tech student at IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling, while researching quantum optimal control.**
 
+**More on my background:** [RIMC](https://rimc.edu.in) · [NDA](http://nda.nic.in) · [Research Guide: Prof. Navin Khaneja](https://scholar.google.com/citations?user=UV8w0EsAAAAJ&hl=en)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/loop-tagline.svg" width="70%"/>
 </p>
