@@ -154,8 +154,8 @@ def render_streak_svg(total_contributions, account_created_at, current_streak,
   <text x="120" y="165" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" fill="#6FA8FF">Total Contributions</text>
   <text x="120" y="195" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#4ECDC4" opacity="0.8">""" + range_label + """</text>
 
-  <text x=\"""" + str(ring_cx) + """\" y="51" text-anchor="middle" font-size="28">🔥</text>
   <circle cx=\"""" + str(ring_cx) + """\" cy=\"""" + str(ring_cy) + """\" r=\"""" + str(ring_r) + """\" fill="none" stroke="#9333EA" stroke-width="5" opacity="0.9"/>
+  <text x=\"""" + str(ring_cx) + """\" y="51" text-anchor="middle" font-size="28">🔥</text>
   <text x=\"""" + str(ring_cx) + """\" y=\"""" + str(ring_cy + 13) + """\" text-anchor="middle" font-family="ui-monospace, monospace" font-size="40" font-weight="bold" fill="#B794F6">""" + str(current_streak) + """</text>
   <text x=\"""" + str(ring_cx) + """\" y="187" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" font-weight="bold" fill="#B794F6">Current Streak</text>
   <text x=\"""" + str(ring_cx) + """\" y="211" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4" opacity="0.8">""" + current_range + """</text>
