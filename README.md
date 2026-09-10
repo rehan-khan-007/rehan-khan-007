@@ -83,7 +83,7 @@ My background in systems and control shapes how I think about software too. Feed
 
 Before this, I studied at the Rashtriya Indian Military College and trained as an Air Force trainee officer at NDA — probably where my appreciation for structure and systems that do what they're supposed to do comes from.
 
-**Build → measure → break → fix → repeat.**
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/loop-tagline.svg" width="70%"/>
 
 </div>
 
