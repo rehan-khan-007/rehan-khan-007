@@ -54,6 +54,20 @@
 
 ---
 
+<a name="github-stats"></a>
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/stats.svg" width="49%" />
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/languages.svg" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/streak.svg" width="60%" />
+</p>
+
+---
+
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
@@ -305,20 +319,6 @@ graph TB
     style C fill:#4ECDC4,stroke:#35A29F,color:#fff
     style D fill:#1A1B27,stroke:#000000,color:#fff
 ```
-
----
-
-<a name="github-stats"></a>
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/stats.svg" width="49%" />
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/languages.svg" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=rehan-khan-007&theme=tokyonight&hide_border=true" width="60%" />
-</p>
 
 ---
 
