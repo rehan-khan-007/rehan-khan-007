@@ -119,3 +119,49 @@ def render_trophies_svg(total_stars, followers, total_contributions, total_repos
     return """<svg width=\"""" + str(total_width) + """\" height="154" viewBox="0 0 """ + str(total_width) + """ 154" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width=\"""" + str(total_width) + """\" height="154" rx="12" fill="#0d0d12"/>""" + cards + """
 </svg>"""
+
+
+def _format_date_range(start, end):
+    if start is None or end is None:
+        return "No streak yet"
+    if start == end:
+        return start.strftime("%b %-d")
+    if start.month == end.month:
+        return f"{start.strftime('%b %-d')} - {end.strftime('%-d')}"
+    return f"{start.strftime('%b %-d')} - {end.strftime('%b %-d')}"
+
+
+def render_streak_svg(total_contributions, account_created_at, current_streak,
+                       current_streak_start, current_streak_end,
+                       longest_streak, longest_streak_start, longest_streak_end):
+    created_year = account_created_at[:4] if account_created_at else ""
+    range_label = f"{created_year} - Present" if created_year else "Present"
+
+    current_range = _format_date_range(current_streak_start, current_streak_end)
+    longest_range = _format_date_range(longest_streak_start, longest_streak_end)
+
+    ring_r = 55
+    ring_cx, ring_cy = 360, 103
+
+    return """<svg width="720" height="240" viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="720" height="240" rx="12" fill="#0d0d12" stroke="#9333EA" stroke-opacity="0.3"/>
+
+  <line x1="240" y1="15" x2="240" y2="225" stroke="#ffffff" stroke-opacity="0.12"/>
+  <line x1="480" y1="15" x2="480" y2="225" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <text x="120" y="90" text-anchor="middle" font-size="20">📈</text>
+  <text x="120" y="130" text-anchor="middle" font-family="ui-monospace, monospace" font-size="34" font-weight="bold" fill="#6FA8FF">""" + f"{total_contributions:,}" + """</text>
+  <text x="120" y="165" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" fill="#6FA8FF">Total Contributions</text>
+  <text x="120" y="195" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#4ECDC4" opacity="0.8">""" + range_label + """</text>
+
+  <text x=\"""" + str(ring_cx) + """\" y="51" text-anchor="middle" font-size="28">🔥</text>
+  <circle cx=\"""" + str(ring_cx) + """\" cy=\"""" + str(ring_cy) + """\" r=\"""" + str(ring_r) + """\" fill="none" stroke="#9333EA" stroke-width="5" opacity="0.9"/>
+  <text x=\"""" + str(ring_cx) + """\" y=\"""" + str(ring_cy + 13) + """\" text-anchor="middle" font-family="ui-monospace, monospace" font-size="40" font-weight="bold" fill="#B794F6">""" + str(current_streak) + """</text>
+  <text x=\"""" + str(ring_cx) + """\" y="187" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" font-weight="bold" fill="#B794F6">Current Streak</text>
+  <text x=\"""" + str(ring_cx) + """\" y="211" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#4ECDC4" opacity="0.8">""" + current_range + """</text>
+
+  <text x="600" y="90" text-anchor="middle" font-size="20">🏆</text>
+  <text x="600" y="130" text-anchor="middle" font-family="ui-monospace, monospace" font-size="34" font-weight="bold" fill="#6FA8FF">""" + str(longest_streak) + """</text>
+  <text x="600" y="165" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" fill="#6FA8FF">Longest Streak</text>
+  <text x="600" y="195" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#4ECDC4" opacity="0.8">""" + longest_range + """</text>
+</svg>"""

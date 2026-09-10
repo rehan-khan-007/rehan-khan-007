@@ -150,3 +150,107 @@ def fetch_total_loc(login, repos):
     for r in repos:
         total += _get_current_lines_of_code(login, r["name"], TOKEN)
     return total
+
+
+CONTRIB_QUERY_WITH_CALENDAR = """
+query($from: DateTime!, $to: DateTime!) {
+  viewer {
+    contributionsCollection(from: $from, to: $to) {
+      totalCommitContributions
+      totalIssueContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
+      totalRepositoryContributions
+      restrictedContributionsCount
+      contributionCalendar {
+        weeks {
+          contributionDays {
+            date
+            contributionCount
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+def fetch_contributions_and_streaks(created_at):
+    start_year = int(created_at[:4])
+    current_year = datetime.datetime.utcnow().year
+    total = 0
+    all_days = []
+
+    for year in range(start_year, current_year + 1):
+        frm = f"{year}-01-01T00:00:00Z"
+        to = f"{year}-12-31T23:59:59Z"
+        try:
+            c = gql(CONTRIB_QUERY_WITH_CALENDAR, {"from": frm, "to": to})["viewer"]["contributionsCollection"]
+            total += (
+                c["totalCommitContributions"]
+                + c["totalIssueContributions"]
+                + c["totalPullRequestContributions"]
+                + c["totalPullRequestReviewContributions"]
+                + c["totalRepositoryContributions"]
+                + c["restrictedContributionsCount"]
+            )
+            for week in c["contributionCalendar"]["weeks"]:
+                for day in week["contributionDays"]:
+                    all_days.append((day["date"], day["contributionCount"]))
+        except Exception as e:
+            print(f"Warning: failed to fetch contributions for {year}: {e}", file=sys.stderr)
+
+    all_days.sort(key=lambda d: d[0])
+
+    longest_streak = 0
+    longest_start = longest_end = None
+    run_length = 0
+    run_start = None
+    prev_date = None
+
+    for date_str, count in all_days:
+        d = datetime.date.fromisoformat(date_str)
+        if count > 0:
+            if prev_date is not None and (d - prev_date).days == 1:
+                run_length += 1
+            else:
+                run_length = 1
+                run_start = d
+            if run_length > longest_streak:
+                longest_streak = run_length
+                longest_start = run_start
+                longest_end = d
+            prev_date = d
+        else:
+            prev_date = None
+            run_length = 0
+
+    current_streak = 0
+    current_start = current_end = None
+
+    if all_days:
+        day_map = {datetime.date.fromisoformat(ds): cnt for ds, cnt in all_days}
+        today = max(day_map.keys())
+        anchor = today if day_map.get(today, 0) > 0 else today - datetime.timedelta(days=1)
+
+        d = anchor
+        streak_days = []
+        while day_map.get(d, 0) > 0:
+            streak_days.append(d)
+            d -= datetime.timedelta(days=1)
+
+        if streak_days:
+            current_streak = len(streak_days)
+            current_end = streak_days[0]
+            current_start = streak_days[-1]
+
+    return {
+        "total_contributions": total,
+        "current_streak": current_streak,
+        "current_streak_start": current_start,
+        "current_streak_end": current_end,
+        "longest_streak": longest_streak,
+        "longest_streak_start": longest_start,
+        "longest_streak_end": longest_end,
+    }

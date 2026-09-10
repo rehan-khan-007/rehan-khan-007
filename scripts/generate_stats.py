@@ -7,8 +7,8 @@ and render_svg.py for the actual logic.
 """
 import os
 
-from fetch_stats import fetch_basic_info, fetch_total_contributions, fetch_total_loc
-from render_svg import render_stats_svg, render_langs_svg, render_trophies_svg
+from fetch_stats import fetch_basic_info, fetch_total_contributions, fetch_total_loc, fetch_contributions_and_streaks
+from render_svg import render_stats_svg, render_langs_svg, render_trophies_svg, render_streak_svg
 
 info = fetch_basic_info()
 total_contributions = fetch_total_contributions(info["created_at"])
@@ -49,6 +49,22 @@ trophies_svg = render_trophies_svg(
 
 with open("assets/trophies.svg", "w") as f:
     f.write(trophies_svg)
+
+streak_data = fetch_contributions_and_streaks(info["created_at"])
+
+streak_svg = render_streak_svg(
+    total_contributions=streak_data["total_contributions"],
+    account_created_at=info["created_at"],
+    current_streak=streak_data["current_streak"],
+    current_streak_start=streak_data["current_streak_start"],
+    current_streak_end=streak_data["current_streak_end"],
+    longest_streak=streak_data["longest_streak"],
+    longest_streak_start=streak_data["longest_streak_start"],
+    longest_streak_end=streak_data["longest_streak_end"],
+)
+
+with open("assets/streak.svg", "w") as f:
+    f.write(streak_svg)
 
 print(
     f"Done. Stars={info['total_stars']} Forks={info['total_forks']} "
