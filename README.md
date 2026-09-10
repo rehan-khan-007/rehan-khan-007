@@ -71,17 +71,17 @@
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
-I'm Rehan — an M.Tech student at IIT Bombay working at the intersection of AI systems, distributed infrastructure, and control theory.
-
-I like building systems where the hard part isn't making a demo work once, but making it measurable, observable, and honest about its failure modes. Most of my recent work sits across AI agent runtimes, evaluation infrastructure, and distributed execution systems — I build, instrument, stress-test, and fix based on what actually breaks, not what I assume will.
-
-I'm comfortable dropping into an unfamiliar system, figuring out how the pieces actually connect, and owning a problem through to a working outcome rather than just the part I find interesting — that's usually where the real engineering happens anyway.
-
-My background in systems and control shapes how I think about software too. Feedback, stability, and fault tolerance matter to me whether the system is a physical process, a distributed workflow, or an AI agent — which is also the thesis behind my current MTP work on quantum optimal control under Prof. Navin Khaneja.
-
-Before this, I studied at the Rashtriya Indian Military College and trained as an Air Force trainee officer at NDA — probably where my appreciation for structure and systems that do what they're supposed to do comes from.
-
-**Build → measure → break → fix → repeat.**
+> I'm Rehan — an M.Tech student at IIT Bombay working at the intersection of $\color{#4ECDC4}{\textsf{AI systems}}$, $\color{#9333EA}{\textsf{distributed infrastructure}}$, and $\color{#FF6B6B}{\textsf{control theory}}$.
+>
+> I like building systems where the hard part isn't making a demo work once, but making it measurable, observable, and honest about its failure modes. Most of my recent work sits across AI agent runtimes, evaluation infrastructure, and distributed execution systems — I build, instrument, stress-test, and fix based on what actually breaks, not what I assume will.
+>
+> I'm comfortable dropping into an unfamiliar system, figuring out how the pieces actually connect, and owning a problem through to a working outcome rather than just the part I find interesting — that's usually where the real engineering happens anyway.
+>
+> My background in systems and control shapes how I think about software too. Feedback, stability, and fault tolerance matter to me whether the system is a physical process, a distributed workflow, or an AI agent — which is also the thesis behind my current MTP work on quantum optimal control under Prof. Navin Khaneja.
+>
+> Before this, I studied at the Rashtriya Indian Military College and trained as an Air Force trainee officer at NDA — probably where my appreciation for structure and systems that do what they're supposed to do comes from.
+>
+> **Build → measure → break → fix → repeat.**
 
 ---
 
