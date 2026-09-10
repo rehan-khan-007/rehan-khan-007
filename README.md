@@ -71,48 +71,17 @@
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
-```ts
-const rehan: Engineer = {
-  name: "Rehan Khan",
-  role: "SDE | AI/ML Engineer | Systems & Control",
-  base: "M.Tech, Systems and Control Engineering — IIT Bombay",
-  thesis: "Quantum optimal control of NMR spin systems (advisor: Prof. Navin Khaneja)",
+I'm Rehan — an M.Tech student at IIT Bombay working at the intersection of AI systems, distributed infrastructure, and control theory.
 
-  currentFocus: [
-    "🧠 Evaluation-driven agent runtimes (RAG + orchestration + evals)",
-    "⚙️ Distributed workflow orchestration & fault-tolerant systems",
-    "☁️ Cloud-native, multi-tenant infrastructure on Kubernetes",
-    "🔬 Optimal control theory applied to quantum spin dynamics",
-  ],
+I like building systems where the hard part isn't making a demo work once, but making it measurable, observable, and honest about its failure modes. Most of my recent work sits across AI agent runtimes, evaluation infrastructure, and distributed execution systems — I build, instrument, stress-test, and fix based on what actually breaks, not what I assume will.
 
-  languages: {
-    core: ["Python", "TypeScript", "C++"],
-    familiar: ["SQL", "Bash"],
-  },
+I'm comfortable dropping into an unfamiliar system, figuring out how the pieces actually connect, and owning a problem through to a working outcome rather than just the part I find interesting — that's usually where the real engineering happens anyway.
 
-  expertise: {
-    aiMl: ["LangGraph", "RAG pipelines", "pgvector", "SHAP", "MLflow", "LLM evals"],
-    backend: ["FastAPI", "Node.js", "REST APIs", "WebSockets"],
-    infra: ["Docker", "Kubernetes", "Redis", "PostgreSQL", "Prometheus"],
-    frontend: ["React", "Next.js", "TypeScript"],
-    controlTheory: ["Optimal control (GRAPE, CRAB)", "Lyapunov methods", "Bloch sphere dynamics"],
-  },
+My background in systems and control shapes how I think about software too. Feedback, stability, and fault tolerance matter to me whether the system is a physical process, a distributed workflow, or an AI agent — which is also the thesis behind my current MTP work on quantum optimal control under Prof. Navin Khaneja.
 
-  background: [
-    "🎖️ Rashtriya Indian Military College (RIMC) & NDA",
-    "🎓 B.Tech, Parul University (distinction)",
-    "📚 Stanford Code in Place",
-  ],
-};
+Before this, I studied at the Rashtriya Indian Military College and trained as an Air Force trainee officer at NDA — probably where my appreciation for structure and systems that do what they're supposed to do comes from.
 
-// My approach to engineering
-const philosophy = () => ({
-  design: "Rigorous, measurable, and demoable",
-  code: "Clean, benchmarked, and documented",
-  research: "Theory grounded in working implementation",
-  mindset: "Systems thinking, from control loops to agent loops",
-});
-```
+**Build → measure → break → fix → repeat.**
 
 ---
 
