@@ -75,21 +75,9 @@
 
 **M.Tech student at IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling — while researching quantum optimal control.**
 
-<div align="center">
-
-I'm Rehan — an M.Tech student at IIT Bombay working at the intersection of $\color{#06B6D4}{\texttt{AI systems}}$, $\color{#D946EF}{\texttt{distributed infrastructure}}$, and $\color{#F97316}{\texttt{control theory}}$.
-
-I like building systems where the hard part isn't making a demo work once, but making it measurable, observable, and honest about its failure modes. Most of my recent work sits across AI agent runtimes, evaluation infrastructure, and distributed execution systems — I build, instrument, stress-test, and fix based on what actually breaks, not what I assume will.
-
-I'm comfortable dropping into an unfamiliar system, figuring out how the pieces actually connect, and owning a problem through to a working outcome rather than just the part I find interesting — that's usually where the real engineering happens anyway.
-
-My background in systems and control shapes how I think about software too. Feedback, stability, and fault tolerance matter to me whether the system is a physical process, a distributed workflow, or an AI agent — which is also the thesis behind my current MTP work on quantum optimal control under Prof. Navin Khaneja.
-
-Before this, I studied at the Rashtriya Indian Military College and trained as an Air Force trainee officer at NDA — probably where my appreciation for structure and systems that do what they're supposed to do comes from.
-
-<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/loop-tagline.svg" width="70%"/>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/loop-tagline.svg" width="70%"/>
+</p>
 
 ---
 
