@@ -184,7 +184,10 @@ def fetch_contributions_and_streaks(created_at):
 
     for year in range(start_year, current_year + 1):
         frm = f"{year}-01-01T00:00:00Z"
-        to = f"{year}-12-31T23:59:59Z"
+        if year == current_year:
+            to = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        else:
+            to = f"{year}-12-31T23:59:59Z"
         try:
             c = gql(CONTRIB_QUERY_WITH_CALENDAR, {"from": frm, "to": to})["viewer"]["contributionsCollection"]
             total += (
@@ -202,7 +205,6 @@ def fetch_contributions_and_streaks(created_at):
             print(f"Warning: failed to fetch contributions for {year}: {e}", file=sys.stderr)
 
     all_days.sort(key=lambda d: d[0])
-    print(f"DEBUG: last 5 days fetched: {all_days[-5:]}", file=sys.stderr)
 
     longest_streak = 0
     longest_start = longest_end = None
