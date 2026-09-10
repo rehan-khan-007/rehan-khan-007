@@ -202,6 +202,7 @@ def fetch_contributions_and_streaks(created_at):
             print(f"Warning: failed to fetch contributions for {year}: {e}", file=sys.stderr)
 
     all_days.sort(key=lambda d: d[0])
+    print(f"DEBUG: last 5 days fetched: {all_days[-5:]}", file=sys.stderr)
 
     longest_streak = 0
     longest_start = longest_end = None
