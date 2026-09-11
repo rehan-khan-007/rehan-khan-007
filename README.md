@@ -248,25 +248,18 @@ Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and P
 ---
 
 <a name="build-progress"></a>
-## 📊 Build Progress
+## 📊 Current Build Status
 
-<p align="left">
-$\large{\textsf{AgentOS}}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.xyz/75/?width=300&color=9333EA" />
-</p>
-<p align="left">
-$\large{\textsf{Workflow Orchestration Engine}}$ <img src="https://progress-bar.xyz/85/?width=220&color=4ECDC4" />
-</p>
-<p align="left">
-$\large{\textsf{EvalOS}}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://progress-bar.xyz/100/?width=300&color=2ECC71" />
-</p>
-<p align="left">
-$\large{\textsf{Clinical Risk Platform}}$ &nbsp;<img src="https://progress-bar.xyz/70/?width=260&color=FF6B6B" />
-</p>
-<p align="left">
-$\large{\textsf{Cloud-Native Platform}}$ &nbsp;&nbsp;<img src="https://progress-bar.xyz/60/?width=265&color=FFD93D" />
-</p>
+**Shipped**
+- AgentOS
+- EvalOS
+- Workflow Orchestration Engine
 
-$\color{#FF6B6B}{\normalsize{\textsf{Not a highlight reel: an honest, live snapshot of where each system actually stands, updated as they evolve.}}}$
+**Research**
+- Quantum Optimal Control
+
+**Building**
+- Cloud-Native Platform
 
 ---
 
