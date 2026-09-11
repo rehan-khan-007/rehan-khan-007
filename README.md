@@ -31,13 +31,13 @@
 
 <p align="center">
   <a href="#about-me">👋 About</a> &nbsp;·&nbsp;
-  <a href="#tech-stack">🛠️ Tech Stack</a> &nbsp;·&nbsp;
   <a href="#featured-projects">🚀 Projects</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">🛠️ Tech Stack</a> &nbsp;·&nbsp;
   <a href="#build-progress">📊 Progress</a> &nbsp;·&nbsp;
-  <a href="#github-stats">📈 Stats</a> &nbsp;·&nbsp;
-  <a href="#trophies">🏆 Trophies</a> &nbsp;·&nbsp;
   <a href="#unique-approach">🧭 Approach</a> &nbsp;·&nbsp;
   <a href="#focus-roadmap">🗺️ Roadmap</a> &nbsp;·&nbsp;
+  <a href="#github-stats">📈 Stats</a> &nbsp;·&nbsp;
+  <a href="#trophies">🏆 Trophies</a> &nbsp;·&nbsp;
   <a href="#get-in-touch">📫 Contact</a>
 </p>
 
@@ -50,20 +50,6 @@
   <img src="https://img.shields.io/badge/👤_Full_Time-Seeking-F43F5E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🌐_Remote-Preferred-3B82F6?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🤝_Collaborations-Open-10B981?style=for-the-badge" />
-</p>
-
----
-
-<a name="github-stats"></a>
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/stats.svg" width="49%" />
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/languages.svg" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/streak.svg" width="60%" />
 </p>
 
 ---
@@ -103,74 +89,6 @@ $\textcolor{#FF6B6B}{\texttt{\textbf{quantum optimal control.}}}$
 </p>
 
 ---
-
-<a name="tech-stack"></a>
-## 🛠️ Tech Stack
-
-<p align="center"><strong>Languages</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-</p>
-
-<p align="center"><strong>AI / ML & Agent Systems</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" />
-</p>
-
-<p align="center"><strong>Backend & APIs</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
-</p>
-
-<p align="center"><strong>Databases & Caching</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-</p>
-
-<p align="center"><strong>DevOps & Infrastructure</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
-</p>
-
-<p align="center"><strong>Frontend</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-</p>
-
-<p align="center"><strong>Tools</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</p>
 
 <a name="featured-projects"></a>
 ## 🚀 Featured Projects
@@ -247,6 +165,76 @@ Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and P
 
 ---
 
+<a name="tech-stack"></a>
+## 🛠️ Tech Stack
+
+<p align="center"><strong>Languages</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+</p>
+
+<p align="center"><strong>AI / ML & Agent Systems</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+</p>
+
+<p align="center"><strong>Backend & APIs</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+</p>
+
+<p align="center"><strong>Databases & Caching</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+</p>
+
+<p align="center"><strong>DevOps & Infrastructure</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+</p>
+
+<p align="center"><strong>Frontend</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+</p>
+
+<p align="center"><strong>Tools</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
+
+---
+
 <a name="build-progress"></a>
 ## 📊 Current Build Status
 
@@ -305,6 +293,20 @@ graph TB
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/output/github-contribution-grid-snake-dark.svg" width="90%" />
+</p>
+
+---
+
+<a name="github-stats"></a>
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/stats.svg" width="49%" />
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/languages.svg" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/streak.svg" width="60%" />
 </p>
 
 ---
