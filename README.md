@@ -84,7 +84,9 @@ $\textcolor{#EDE3FF}{\texttt{\textbf{in IIT Bombay, building }}}\textcolor{#FFD9
 <br/>
 $\textcolor{#B794F6}{\texttt{\textbf{distributed infrastructure}}}\textcolor{#EDE3FF}{\texttt{\textbf{, and}}}$
 <br/>
-$\textcolor{#4ECDC4}{\texttt{\textbf{evaluation tooling}}}\textcolor{#EDE3FF}{\texttt{\textbf{, with ongoing research in}}}$
+$\textcolor{#4ECDC4}{\texttt{\textbf{evaluation tooling}}}\textcolor{#EDE3FF}{\texttt{\textbf{, with}}}$
+<br/>
+$\textcolor{#EDE3FF}{\texttt{\textbf{ongoing research in}}}$
 <br/>
 $\textcolor{#FF6B6B}{\texttt{\textbf{quantum optimal control.}}}$
 
