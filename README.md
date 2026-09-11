@@ -71,13 +71,20 @@
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
+<table>
+<tr>
+<td width="33%" valign="middle">
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/greeting-banner.svg" width="100%"/>
+</td>
+<td width="67%" valign="middle" align="center">
 
-<p align="center">
 $\color{#EAB308}{\texttt{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling,}}}$
 <br/>
 $\color{#EAB308}{\texttt{\textbf{with ongoing research in quantum optimal control.}}}$
-</p>
+
+</td>
+</tr>
+</table>
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/particle-network.svg" width="100%"/>
 
