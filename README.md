@@ -196,7 +196,9 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 </td>
 <td width="50%" align="right">
 
-🌐 **37+ visitors** · **66+ page views** · **30% bounce**
+🌐 **37+ visitors** · **66+ page views**
+<br/>
+**30% bounce rate**
 
 </td>
 </tr>
