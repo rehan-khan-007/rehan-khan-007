@@ -78,7 +78,7 @@
 </td>
 <td width="33%" valign="middle" align="center">
 
-$\textcolor{#EDE3FF}{\texttt{\textbf{Currently pursuing }}}\textcolor{#1E3A8A}{\texttt{\textbf{Master of Technology}}}$
+$\textcolor{#EDE3FF}{\texttt{\textbf{Currently pursuing }}}\textcolor{#9333EA}{\texttt{\textbf{Master of Technology}}}$
 <br/>
 $\textcolor{#EDE3FF}{\texttt{\textbf{in IIT Bombay, building }}}\textcolor{#FFD93D}{\texttt{\textbf{AI agent systems}}}\textcolor{#EDE3FF}{\texttt{\textbf{,}}}$
 <br/>
