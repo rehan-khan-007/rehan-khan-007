@@ -71,13 +71,15 @@
 <a name="about-me"></a>
 ## 👨‍💻 About Me
 
-<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/particle-network.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/greeting-banner.svg" width="100%"/>
 
 <p align="center">
 $\color{#EAB308}{\texttt{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling,}}}$
 <br/>
 $\color{#EAB308}{\texttt{\textbf{with ongoing research in quantum optimal control.}}}$
 </p>
+
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/particle-network.svg" width="100%"/>
 
 **More on my background:** [RIMC](https://rimc.edu.in) · [NDA](http://nda.nic.in) · [Research Guide: Prof. Navin Khaneja](https://scholar.google.com/citations?user=UV8w0EsAAAAJ&hl=en)
 
