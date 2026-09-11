@@ -189,12 +189,12 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 <table width="100%" style="table-layout: fixed; width: 100%;">
 <tr>
-<td width="50%">
+<td width="30%">
 
 **→ [Live Demo](https://agent-os-weld.vercel.app/) · [Explore the repo](https://github.com/rehan-khan-007/Agent-OS)**
 
 </td>
-<td width="50%" align="right">
+<td width="70%" align="right">
 
 🌐 **37+ visitors** · **66+ page views**
 <br/>
