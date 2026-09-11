@@ -198,7 +198,7 @@ An end-to-end runtime for executing, observing, and evaluating long-running AI a
 
 🌐 **37+ visitors** · **66+ page views**
 <br/>
-**30% bounce rate**
+↩️ **30% bounce rate**
 
 </td>
 </tr>
