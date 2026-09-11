@@ -84,9 +84,9 @@ $\color{#EAB308}{\texttt{\textbf{in IIT Bombay, building AI agent systems,}}}$
 <br/>
 $\color{#EAB308}{\texttt{\textbf{distributed infrastructure, and evaluation}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{tooling, with ongoing research in quantum}}}$
+$\color{#EAB308}{\texttt{\textbf{tooling, with ongoing research in}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{optimal control.}}}$
+$\color{#EAB308}{\texttt{\textbf{quantum optimal control.}}}$
 
 </td>
 </tr>
