@@ -250,7 +250,7 @@ Modelling spin-1/2 quantum system dynamics via Bloch sphere representation and P
 <a name="build-progress"></a>
 ## 📊 Current Build Status
 
-**Shipped**
+**Shipped** *(0→1, working end-to-end, not production)*
 - AgentOS
 - EvalOS
 - Workflow Orchestration Engine
