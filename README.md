@@ -73,10 +73,10 @@
 
 <table>
 <tr>
-<td width="33%" valign="middle">
+<td width="67%" valign="middle">
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/greeting-banner.svg" width="100%"/>
 </td>
-<td width="67%" valign="middle" align="center">
+<td width="33%" valign="middle" align="center">
 
 $\color{#EAB308}{\texttt{\textbf{Currently pursuing Master of Technology in IIT Bombay, building AI agent systems, distributed infrastructure, and evaluation tooling,}}}$
 <br/>
