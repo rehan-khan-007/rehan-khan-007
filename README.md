@@ -78,25 +78,15 @@
 </td>
 <td width="33%" valign="middle" align="center">
 
-$\color{#EAB308}{\texttt{\textbf{Currently pursuing}}}$
+$\color{#EAB308}{\texttt{\textbf{Currently pursuing Master of Technology}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{Master of Technology}}}$
+$\color{#EAB308}{\texttt{\textbf{in IIT Bombay, building AI agent systems,}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{in IIT Bombay,}}}$
+$\color{#EAB308}{\texttt{\textbf{distributed infrastructure, and evaluation}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{building AI agent}}}$
+$\color{#EAB308}{\texttt{\textbf{tooling, with ongoing research in quantum}}}$
 <br/>
-$\color{#EAB308}{\texttt{\textbf{systems, distributed}}}$
-<br/>
-$\color{#EAB308}{\texttt{\textbf{infrastructure, and}}}$
-<br/>
-$\color{#EAB308}{\texttt{\textbf{evaluation tooling,}}}$
-<br/>
-$\color{#EAB308}{\texttt{\textbf{with ongoing research}}}$
-<br/>
-$\color{#EAB308}{\texttt{\textbf{in quantum optimal}}}$
-<br/>
-$\color{#EAB308}{\texttt{\textbf{control.}}}$
+$\color{#EAB308}{\texttt{\textbf{optimal control.}}}$
 
 </td>
 </tr>
