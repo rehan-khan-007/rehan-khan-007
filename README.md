@@ -263,23 +263,6 @@ $\textcolor{#FFD93D}{\textbf{Building}}$
 
 ---
 
-## ✅ Master Technologies
-
-- [x] Python for AI/ML systems
-- [x] FastAPI / Node.js backends
-- [x] Docker & Kubernetes
-- [ ] Rust for systems programming
-- [ ] Distributed consensus protocols
-
-**📦 Ship Track**
-
-- [x] 2 production-deployed platforms (AgentOS, Clinical Risk Platform)
-- [x] 1 completed evaluation framework (EvalOS)
-- [ ] Kubernetes-scale benchmark suite (Workflow Orchestration Engine)
-- [ ] Multi-tenant cloud sandbox platform (Cloud-Native Platform)
-
----
-
 <a name="unique-approach"></a>
 ## 🧭 Unique Approach
 
