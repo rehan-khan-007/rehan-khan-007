@@ -31,6 +31,7 @@
 
 <p align="center">
   <a href="#about-me">👋 About</a> &nbsp;·&nbsp;
+  <a href="#engineering-evidence">🔬 Evidence</a> &nbsp;·&nbsp;
   <a href="#featured-projects">🚀 Projects</a> &nbsp;·&nbsp;
   <a href="#tech-stack">🛠️ Tech Stack</a> &nbsp;·&nbsp;
   <a href="#build-progress">📊 Progress</a> &nbsp;·&nbsp;
@@ -87,6 +88,29 @@ $\textcolor{#FF6B6B}{\texttt{\textbf{quantum optimal control.}}}$
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/loop-tagline.svg" width="70%"/>
 </p>
+
+---
+
+<a name="engineering-evidence"></a>
+## 🔬 Engineering Evidence
+
+Not a highlight reel: real measurements, honest uncertainty, and the bugs that actually got found and fixed.
+
+### AgentOS
+
+*An AI agent that answers questions using a real, searchable knowledge base instead of guessing. Every performance claim here is backed by a real, repeatable test, including the one time a bug made it fail completely before it was found and fixed.*
+
+**Project Context:** [MASTER.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/MASTER.md)
+
+| Impact | Benchmarks | Engineering Log | Limitations |
+|---|---|---|---|
+| **94.3%** retrieval recall@3 · **41.5%** cost savings via routing · **86.7%** tool-selection accuracy (post-fix) | [BENCHMARKS.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/evals/results/BENCHMARKS.md) | [Tool-selection bug: 0/10 → 6/10](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/04_EVALUATION_AND_BENCHMARKS.md) | [Known gaps](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/05_PRODUCT_AND_ROADMAP.md) |
+
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/agentos-bug-trace.svg" width="100%"/>
+
+The agent's `retrieve` tool scored 0 out of 10 on questions that should have triggered a document lookup, answering from pretrained knowledge instead of the real 132-document corpus. The bug wasn't in retrieval itself — the tool's description told the model to use it only for user-uploaded files, a leftover instruction from an earlier design, so the model was correctly following guidance that was simply wrong. Rewriting the description to reflect the corpus's real, standing nature fixed it, taking the score from 0/10 to 6/10 with zero regression on the other 20 tasks.
+
+A separate retrieval ablation turned up an honest non-win worth keeping in: BM25-only scored 91.4%, dense-only and the full hybrid pipeline both scored 94.3% — hybrid didn't outperform dense-only on this dataset, and that's reported as a tie rather than spun as a win. The more interesting detail underneath: hybrid and dense-only actually missed *different* questions despite matching scores, suggesting real complementary behavior rather than plain redundancy at this sample size.
 
 ---
 
