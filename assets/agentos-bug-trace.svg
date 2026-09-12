@@ -14,222 +14,232 @@
   </defs>
   <rect width="1600" height="400" fill="#0d0d12"></rect>
   <rect width="1600" height="400" fill="url(#grid)" opacity="0.55"></rect>
-  <text x="40" y="46" fill="#4ECDC4" font-size="13" font-weight="bold" letter-spacing="2.5">PIPELINE TRACE</text>
-  <text x="192" y="46" fill="#a8a8bd" font-size="13" font-weight="bold" letter-spacing="1.4">/ AGENT DECISION LAYER /</text>
-  <text x="424" y="46" fill="#FF6B6B" font-size="12" font-weight="bold" letter-spacing="1.4">BUG #0412</text>
-  <path d="M40 60 L1105 60" stroke="#23232e" stroke-width="1"></path>
-  <path d="M1152 58 L1152 376" stroke="#23232e" stroke-width="1"></path>
+
+  <text x="40" y="48" fill="#4ECDC4" font-size="16" font-weight="bold" letter-spacing="2.5">PIPELINE TRACE</text>
+  <text x="232" y="48" fill="#a8a8bd" font-size="16" font-weight="bold" letter-spacing="1.4">/ AGENT DECISION LAYER /</text>
+  <text x="518" y="48" fill="#FF6B6B" font-size="16" font-weight="bold" letter-spacing="1.6">BUG #0412</text>
+  <path d="M40 64 L1250 64" stroke="#23232e" stroke-width="1"></path>
+  <path d="M1285 62 L1285 380" stroke="#23232e" stroke-width="1"></path>
+
   <g fill="none" stroke="#2b2b38" stroke-width="1.5">
-    <path d="M180,200 L240,200"></path>
-    <path d="M390,200 L450,200"></path>
-    <path d="M610,200 C655,200 655,128 700,128"></path>
-    <path d="M610,200 L700,200"></path>
-    <path d="M610,200 C655,200 655,272 700,272"></path>
-    <path d="M860,128 C905,128 905,200 950,200"></path>
-    <path d="M860,200 L950,200"></path>
-    <path d="M860,272 C905,272 905,200 950,200"></path>
+    <path d="M210,200 L260,200"></path>
+    <path d="M465,200 L515,200"></path>
+    <path d="M735,200 C767,200 767,122 800,122"></path>
+    <path d="M735,200 L800,200"></path>
+    <path d="M735,200 C767,200 767,278 800,278"></path>
+    <path d="M1005,122 C1035,122 1035,200 1065,200"></path>
+    <path d="M1005,200 L1065,200"></path>
+    <path d="M1005,278 C1035,278 1035,200 1065,200"></path>
   </g>
+
   <g fill="none" stroke="#4ECDC4" stroke-width="1.8">
-    <path d="M180,200 L240,200" opacity="0">
+    <path d="M210,200 L260,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0333;0.0433;0.0889;0.1067;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
     </path>
-    <path d="M390,200 L450,200" opacity="0">
+    <path d="M465,200 L515,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.1333;0.1433;0.1889;0.2067;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
     </path>
   </g>
-  <g fill="none" stroke="#FF6B6B" stroke-width="2.2">
-    <path d="M610,200 C655,200 655,128 700,128" opacity="0">
+  <g fill="none" stroke="#FF6B6B" stroke-width="2.4">
+    <path d="M735,200 C767,200 767,122 800,122" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.4;0.4;0;0"></animate>
     </path>
   </g>
   <g fill="none" stroke="#9333EA" stroke-width="1.8">
-    <path d="M610,200 L700,200" opacity="0">
+    <path d="M735,200 L800,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
-    <path d="M610,200 C655,200 655,272 700,272" opacity="0">
+    <path d="M735,200 C767,200 767,278 800,278" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
   </g>
   <g fill="none" stroke="#4ECDC4" stroke-width="1.8">
-    <path d="M860,128 C905,128 905,200 950,200" opacity="0">
+    <path d="M1005,122 C1035,122 1035,200 1065,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
-    <path d="M860,200 L950,200" opacity="0">
+    <path d="M1005,200 L1065,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
-    <path d="M860,272 C905,272 905,200 950,200" opacity="0">
+    <path d="M1005,278 C1035,278 1035,200 1065,200" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
   </g>
-  <rect x="40" y="168" width="140" height="64" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="110" y="195" text-anchor="middle" fill="#7c7c90" font-size="14" font-weight="bold" letter-spacing="0.6">REQUEST</text>
-  <text x="110" y="214" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">POST /v1/turn</text>
+
+  <rect x="40" y="162" width="170" height="76" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="125" y="196" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">REQUEST</text>
+  <text x="125" y="220" text-anchor="middle" fill="#63637a" font-size="13.5" letter-spacing="0.6">POST /v1/turn</text>
   <g opacity="0">
-    <rect x="40" y="168" width="140" height="64" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
-    <text x="110" y="195" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.6">REQUEST</text>
-    <text x="110" y="214" text-anchor="middle" fill="#7fd8d2" font-size="10" letter-spacing="0.6">POST /v1/turn</text>
+    <rect x="40" y="162" width="170" height="76" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
+    <text x="125" y="196" text-anchor="middle" fill="#4ECDC4" font-size="19" font-weight="bold" letter-spacing="0.6">REQUEST</text>
+    <text x="125" y="220" text-anchor="middle" fill="#9fd8d4" font-size="13.5" letter-spacing="0.6">POST /v1/turn</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.008;0.0667;0.0933;0.95;0.99;1" values="0;1;1;0.45;0.45;0;0"></animate>
   </g>
-  <rect x="240" y="168" width="150" height="64" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="315" y="195" text-anchor="middle" fill="#7c7c90" font-size="14" font-weight="bold" letter-spacing="0.6">SESSION CHECK</text>
-  <text x="315" y="214" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">auth · ctx window</text>
+
+  <rect x="260" y="162" width="205" height="76" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="362" y="196" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">SESSION CHECK</text>
+  <text x="362" y="220" text-anchor="middle" fill="#63637a" font-size="13.5" letter-spacing="0.6">auth · ctx window</text>
   <g opacity="0">
-    <rect x="240" y="168" width="150" height="64" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
-    <text x="315" y="195" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.6">SESSION CHECK</text>
-    <text x="315" y="214" text-anchor="middle" fill="#7fd8d2" font-size="10" letter-spacing="0.6">auth · ctx window</text>
+    <rect x="260" y="162" width="205" height="76" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
+    <text x="362" y="196" text-anchor="middle" fill="#4ECDC4" font-size="19" font-weight="bold" letter-spacing="0.6">SESSION CHECK</text>
+    <text x="362" y="220" text-anchor="middle" fill="#9fd8d4" font-size="13.5" letter-spacing="0.6">auth · ctx window</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0833;0.0933;0.14;0.1667;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
   </g>
-  <rect x="450" y="168" width="160" height="64" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="530" y="195" text-anchor="middle" fill="#7c7c90" font-size="14" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
-  <text x="530" y="214" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">tool selection</text>
-  <text x="530" y="308" text-anchor="middle" fill="#8a5050" font-size="11" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
+
+  <rect x="515" y="162" width="220" height="76" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="625" y="196" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
+  <text x="625" y="220" text-anchor="middle" fill="#63637a" font-size="13.5" letter-spacing="0.6">tool selection</text>
+  <text x="625" y="314" text-anchor="middle" fill="#8a5050" font-size="13" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
   <g opacity="0">
-    <text x="530" y="308" text-anchor="middle" fill="#FFD93D" font-size="11" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
+    <text x="625" y="314" text-anchor="middle" fill="#FFD93D" font-size="13" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.212;0.3;0.312;1" values="0;0;1;1;0;0"></animate>
   </g>
-  <text x="530" y="332" text-anchor="middle" fill="#33333f" font-size="10" letter-spacing="1.4">STAGE 3</text>
+  <text x="625" y="340" text-anchor="middle" fill="#3d3d4b" font-size="12" letter-spacing="1.4">STAGE 3</text>
   <g opacity="0">
-    <rect x="450" y="168" width="160" height="64" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
-    <text x="530" y="195" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
-    <text x="530" y="214" text-anchor="middle" fill="#7fd8d2" font-size="10" letter-spacing="0.6">tool selection</text>
+    <rect x="515" y="162" width="220" height="76" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
+    <text x="625" y="196" text-anchor="middle" fill="#4ECDC4" font-size="19" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
+    <text x="625" y="220" text-anchor="middle" fill="#9fd8d4" font-size="13.5" letter-spacing="0.6">tool selection</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.1833;0.192;0.2;0.212;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0">
-    <rect x="444" y="162" width="172" height="76" rx="3" fill="#1a1410" stroke="#FF6B6B" stroke-width="2"></rect>
-    <text x="530" y="195" text-anchor="middle" fill="#FFD93D" font-size="14" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
-    <text x="530" y="214" text-anchor="middle" fill="#FF6B6B" font-size="10" letter-spacing="0.6">tool selection</text>
-    <text x="530" y="229" text-anchor="middle" fill="#FF6B6B" font-size="9.5" letter-spacing="0.8">HALT</text>
+    <rect x="509" y="156" width="232" height="88" rx="3" fill="#1a1410" stroke="#FF6B6B" stroke-width="2.2"></rect>
+    <text x="625" y="194" text-anchor="middle" fill="#FFD93D" font-size="19" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
+    <text x="625" y="216" text-anchor="middle" fill="#FF6B6B" font-size="13.5" letter-spacing="0.6">tool selection</text>
+    <text x="625" y="235" text-anchor="middle" fill="#FF6B6B" font-size="12.5" font-weight="bold" letter-spacing="1">HALT</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.2267;0.2433;0.26;0.2767;0.2933;0.308;1" values="0;0;1;0.5;1;0.5;1;0.75;0;0"></animate>
   </g>
   <g opacity="0">
-    <path d="M530,112 L544,138 L516,138 Z" fill="#1a1410" stroke="#FFD93D" stroke-width="2" stroke-linejoin="round"></path>
-    <text x="530" y="134" text-anchor="middle" fill="#FFD93D" font-size="14" font-weight="bold">!</text>
-    <path d="M530,140 L530,160" stroke="#FFD93D" stroke-width="1.2" stroke-dasharray="3 3"></path>
-    <text x="530" y="264" text-anchor="middle" fill="#FF6B6B" font-size="11.5" font-weight="bold" letter-spacing="0.8">retrieval tool mis-instructed</text>
-    <text x="530" y="281" text-anchor="middle" fill="#8a5a5a" font-size="10" letter-spacing="0.6">fires on every turn, not on gaps</text>
+    <path d="M625,102 L642,134 L608,134 Z" fill="#1a1410" stroke="#FFD93D" stroke-width="2.2" stroke-linejoin="round"></path>
+    <text x="625" y="130" text-anchor="middle" fill="#FFD93D" font-size="16" font-weight="bold">!</text>
+    <path d="M625,136 L625,154" stroke="#FFD93D" stroke-width="1.2" stroke-dasharray="3 3"></path>
+    <text x="625" y="268" text-anchor="middle" fill="#FF6B6B" font-size="14" font-weight="bold" letter-spacing="0.8">retrieval tool mis-instructed</text>
+    <text x="625" y="290" text-anchor="middle" fill="#b07878" font-size="13" letter-spacing="0.6">fires on every turn, not on gaps</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.212;0.3;0.312;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0">
-    <rect x="450" y="168" width="160" height="64" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2"></rect>
-    <text x="530" y="195" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
-    <text x="530" y="214" text-anchor="middle" fill="#7fd8d2" font-size="10" letter-spacing="0.6">tool selection</text>
+    <rect x="515" y="162" width="220" height="76" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2.2"></rect>
+    <text x="625" y="196" text-anchor="middle" fill="#4ECDC4" font-size="19" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
+    <text x="625" y="220" text-anchor="middle" fill="#9fd8d4" font-size="13.5" letter-spacing="0.6">tool selection</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3033;0.3147;0.3333;0.3667;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
   </g>
   <g opacity="0">
-    <text x="530" y="264" text-anchor="middle" fill="#4ECDC4" font-size="11.5" font-weight="bold" letter-spacing="0.8">prompt v4 · retrieval gated</text>
-    <text x="530" y="281" text-anchor="middle" fill="#4a7a76" font-size="10" letter-spacing="0.6">resolved, trace resumed</text>
+    <text x="625" y="268" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.8">prompt v4 · retrieval gated</text>
+    <text x="625" y="290" text-anchor="middle" fill="#6ea8a2" font-size="13" letter-spacing="0.6">resolved, trace resumed</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3133;0.3267;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
   </g>
-  <text x="700" y="90" fill="#8a5050" font-size="9.5" letter-spacing="1.6">BUG PATH</text>
-  <rect x="700" y="100" width="160" height="56" rx="3" fill="#16111400" stroke="#4d3038" stroke-width="1.5" stroke-dasharray="5 3"></rect>
-  <text x="780" y="125" text-anchor="middle" fill="#9a7a80" font-size="13.5" font-weight="bold" letter-spacing="0.6">RETRIEVE</text>
-  <text x="780" y="142" text-anchor="middle" fill="#6a4a52" font-size="10" letter-spacing="0.6">vector index</text>
-  <rect x="700" y="172" width="160" height="56" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="780" y="197" text-anchor="middle" fill="#7c7c90" font-size="13.5" font-weight="bold" letter-spacing="0.6">WEB SEARCH</text>
-  <text x="780" y="214" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">external fetch</text>
-  <rect x="700" y="244" width="160" height="56" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="780" y="269" text-anchor="middle" fill="#7c7c90" font-size="13.5" font-weight="bold" letter-spacing="0.6">CALCULATOR</text>
-  <text x="780" y="286" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">sandboxed eval</text>
+
+  <text x="800" y="76" fill="#a86060" font-size="12.5" font-weight="bold" letter-spacing="1.8">BUG PATH</text>
+  <rect x="800" y="88" width="205" height="68" rx="3" fill="#150f11" stroke="#5c3a42" stroke-width="1.6" stroke-dasharray="5 3"></rect>
+  <text x="902" y="123" text-anchor="middle" fill="#b08a90" font-size="19" font-weight="bold" letter-spacing="0.6">RETRIEVE</text>
+  <text x="902" y="143" text-anchor="middle" fill="#8a6068" font-size="13.5" letter-spacing="0.6">vector index</text>
   <g opacity="0">
-    <rect x="698" y="98" width="164" height="60" rx="3" fill="#1a1215" stroke="#FF6B6B" stroke-width="2.2"></rect>
-    <text x="780" y="125" text-anchor="middle" fill="#FF6B6B" font-size="13.5" font-weight="bold" letter-spacing="0.6">RETRIEVE</text>
-    <text x="780" y="142" text-anchor="middle" fill="#d08a8a" font-size="10" letter-spacing="0.6">vector index</text>
+    <rect x="798" y="86" width="209" height="72" rx="3" fill="#1a1215" stroke="#FF6B6B" stroke-width="2.4"></rect>
+    <text x="902" y="123" text-anchor="middle" fill="#FF6B6B" font-size="19" font-weight="bold" letter-spacing="0.6">RETRIEVE</text>
+    <text x="902" y="143" text-anchor="middle" fill="#e5a3a3" font-size="13.5" letter-spacing="0.6">vector index</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3667;0.378;0.4333;0.46;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
   </g>
+
+  <rect x="800" y="166" width="205" height="68" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="902" y="201" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">WEB SEARCH</text>
+  <text x="902" y="221" text-anchor="middle" fill="#63637a" font-size="13.5" letter-spacing="0.6">external fetch</text>
+  <rect x="800" y="244" width="205" height="68" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="902" y="279" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">CALCULATOR</text>
+  <text x="902" y="299" text-anchor="middle" fill="#63637a" font-size="13.5" letter-spacing="0.6">sandboxed eval</text>
   <g opacity="0">
-    <rect x="700" y="172" width="160" height="56" rx="3" fill="none" stroke="#9333EA" stroke-width="1.8"></rect>
-    <text x="780" y="197" text-anchor="middle" fill="#c084fc" font-size="13.5" font-weight="bold" letter-spacing="0.6">WEB SEARCH</text>
-    <text x="780" y="214" text-anchor="middle" fill="#9333EA" font-size="10" letter-spacing="0.6">external fetch</text>
-    <rect x="700" y="244" width="160" height="56" rx="3" fill="none" stroke="#9333EA" stroke-width="1.8"></rect>
-    <text x="780" y="269" text-anchor="middle" fill="#c084fc" font-size="13.5" font-weight="bold" letter-spacing="0.6">CALCULATOR</text>
-    <text x="780" y="286" text-anchor="middle" fill="#9333EA" font-size="10" letter-spacing="0.6">sandboxed eval</text>
+    <rect x="800" y="166" width="205" height="68" rx="3" fill="none" stroke="#9333EA" stroke-width="1.8"></rect>
+    <text x="902" y="201" text-anchor="middle" fill="#c084fc" font-size="19" font-weight="bold" letter-spacing="0.6">WEB SEARCH</text>
+    <text x="902" y="221" text-anchor="middle" fill="#b070f0" font-size="13.5" letter-spacing="0.6">external fetch</text>
+    <rect x="800" y="244" width="205" height="68" rx="3" fill="none" stroke="#9333EA" stroke-width="1.8"></rect>
+    <text x="902" y="279" text-anchor="middle" fill="#c084fc" font-size="19" font-weight="bold" letter-spacing="0.6">CALCULATOR</text>
+    <text x="902" y="299" text-anchor="middle" fill="#b070f0" font-size="13.5" letter-spacing="0.6">sandboxed eval</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3667;0.378;0.4333;0.46;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
   </g>
-  <rect x="950" y="168" width="155" height="64" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
-  <text x="1027" y="195" text-anchor="middle" fill="#7c7c90" font-size="14" font-weight="bold" letter-spacing="0.6">FINAL</text>
-  <text x="1027" y="214" text-anchor="middle" fill="#4a4a5c" font-size="10" letter-spacing="0.6">RESPONSE</text>
+
+  <rect x="1065" y="162" width="185" height="76" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="1157" y="196" text-anchor="middle" fill="#8e8ea4" font-size="19" font-weight="bold" letter-spacing="0.6">FINAL</text>
+  <text x="1157" y="220" text-anchor="middle" fill="#63637a" font-size="15" letter-spacing="0.6">RESPONSE</text>
   <g opacity="0" filter="url(#g)">
-    <rect x="950" y="168" width="155" height="64" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2"></rect>
-    <text x="1027" y="195" text-anchor="middle" fill="#4ECDC4" font-size="14" font-weight="bold" letter-spacing="0.6">FINAL</text>
-    <text x="1027" y="214" text-anchor="middle" fill="#7fd8d2" font-size="10" letter-spacing="0.6">RESPONSE</text>
+    <rect x="1065" y="162" width="185" height="76" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2.2"></rect>
+    <text x="1157" y="196" text-anchor="middle" fill="#4ECDC4" font-size="19" font-weight="bold" letter-spacing="0.6">FINAL</text>
+    <text x="1157" y="220" text-anchor="middle" fill="#9fd8d4" font-size="15" letter-spacing="0.6">RESPONSE</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;0.4889;0.5333;0.56;0.95;0.99;1" values="0;0;1;1;0.6;0.6;0;0"></animate>
   </g>
+
   <g opacity="0" filter="url(#g)">
-    <circle r="12" fill="#4ECDC4" opacity="0.22">
+    <circle r="13" fill="#4ECDC4" opacity="0.22">
       <animate attributeName="fill" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.3033;0.3147;1" values="#4ECDC4;#4ECDC4;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4"></animate>
     </circle>
-    <circle r="5.5" fill="#4ECDC4">
+    <circle r="6" fill="#4ECDC4">
       <animate attributeName="fill" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.3033;0.3147;1" values="#4ECDC4;#4ECDC4;#FFD93D;#FFD93D;#4ECDC4;#4ECDC4"></animate>
-      <animate attributeName="r" dur="18s" repeatCount="indefinite" keyTimes="0;0.21;0.23;0.25;0.27;0.29;0.308;1" values="5.5;5.5;8;5.5;8;5.5;5.5;5.5"></animate>
+      <animate attributeName="r" dur="18s" repeatCount="indefinite" keyTimes="0;0.21;0.23;0.25;0.27;0.29;0.308;1" values="6;6;9;6;9;6;6;6"></animate>
     </circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M110,200 L315,200 L530,200" keyTimes="0;0.0333;0.0889;0.1333;0.1889;0.3222;1" keyPoints="0;0;0.4881;0.4881;1;1;1"></animateMotion>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M125,200 L362,200 L625,200" keyTimes="0;0.0333;0.0889;0.1333;0.1889;0.3222;1" keyPoints="0;0;0.474;0.474;1;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0053;0.3222;0.3333;1" values="0;1;1;0;0"></animate>
   </g>
+
   <g opacity="0" filter="url(#g)">
-    <circle r="11" fill="#FF6B6B" opacity="0.28"></circle>
-    <circle r="5.5" fill="#FF6B6B"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M610,200 C655,200 655,128 700,128 L780,128" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="12" fill="#FF6B6B" opacity="0.28"></circle>
+    <circle r="6" fill="#FF6B6B"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M735,200 C767,200 767,122 800,122 L902,122" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
-    <circle r="10" fill="#9333EA" opacity="0.25"></circle>
-    <circle r="5" fill="#c084fc"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M610,200 L780,200" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="11" fill="#9333EA" opacity="0.25"></circle>
+    <circle r="5.5" fill="#c084fc"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M735,200 L902,200" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
-    <circle r="10" fill="#9333EA" opacity="0.25"></circle>
-    <circle r="5" fill="#c084fc"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M610,200 C655,200 655,272 700,272 L780,272" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="11" fill="#9333EA" opacity="0.25"></circle>
+    <circle r="5.5" fill="#c084fc"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M735,200 C767,200 767,278 800,278 L902,278" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
   </g>
+
   <g opacity="0" filter="url(#g)">
-    <circle r="10" fill="#4ECDC4" opacity="0.22"></circle>
-    <circle r="5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M860,128 C905,128 905,200 950,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
+    <circle r="5.5" fill="#4ECDC4"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M1005,122 C1035,122 1035,200 1065,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
-    <circle r="10" fill="#4ECDC4" opacity="0.22"></circle>
-    <circle r="5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M860,200 L950,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
+    <circle r="5.5" fill="#4ECDC4"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M1005,200 L1065,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
-    <circle r="10" fill="#4ECDC4" opacity="0.22"></circle>
-    <circle r="5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M860,272 C905,272 905,200 950,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
+    <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
+    <circle r="5.5" fill="#4ECDC4"></circle>
+    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M1005,278 C1035,278 1035,200 1065,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
-  </g>
-  <g opacity="0">
-    <text x="1190" y="100" fill="#8a8aa0" font-size="12" font-weight="bold" letter-spacing="2.2">POST-FIX EVAL</text>
-    <text x="1190" y="370" fill="#6a6a80" font-size="11.5" letter-spacing="1">measured after prompt v4</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.52;0.5333;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
   </g>
 
   <g opacity="0">
+    <text x="1310" y="98" fill="#9a9ab0" font-size="14" font-weight="bold" letter-spacing="2.2">POST-FIX EVAL</text>
+    <text x="1310" y="374" fill="#75758c" font-size="13" letter-spacing="1">measured after prompt v4</text>
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.52;0.5333;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <g opacity="0">
     <g filter="url(#gs)">
-      <text x="1190" y="164" fill="#4ECDC4" font-size="48" font-weight="bold" letter-spacing="-1">94.3%</text>
+      <text x="1310" y="162" fill="#4ECDC4" font-size="42" font-weight="bold" letter-spacing="-1">94.3%</text>
     </g>
-    <text x="1190" y="186" fill="#9fd8d4" font-size="13" letter-spacing="0.8">retrieval recall@3</text>
+    <text x="1310" y="188" fill="#9fd8d4" font-size="15" letter-spacing="0.8">retrieval recall@3</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.5333;0.5587;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
     <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.5333;0.5587;1" values="0 14;0 14;0 0;0 0"></animateTransform>
   </g>
-
   <g opacity="0">
     <g filter="url(#gs)">
-      <text x="1190" y="238" fill="#FF6B6B" font-size="48" font-weight="bold" letter-spacing="-1">41.5%</text>
+      <text x="1310" y="238" fill="#FF6B6B" font-size="42" font-weight="bold" letter-spacing="-1">41.5%</text>
     </g>
-    <text x="1190" y="260" fill="#e5a3a3" font-size="13" letter-spacing="0.8">cost savings</text>
+    <text x="1310" y="264" fill="#e5a3a3" font-size="15" letter-spacing="0.8">cost savings</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.5587;0.584;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
     <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.5587;0.584;1" values="0 14;0 14;0 0;0 0"></animateTransform>
   </g>
-
   <g opacity="0">
     <g filter="url(#gs)">
-      <text x="1190" y="312" fill="#FFD93D" font-size="48" font-weight="bold" letter-spacing="-1">86.7%</text>
+      <text x="1310" y="314" fill="#FFD93D" font-size="42" font-weight="bold" letter-spacing="-1">86.7%</text>
     </g>
-    <text x="1190" y="334" fill="#e8cf82" font-size="13" letter-spacing="0.8">tool-selection accuracy</text>
+    <text x="1310" y="340" fill="#e8cf82" font-size="15" letter-spacing="0.8">tool-selection accuracy</text>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.584;0.6093;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
     <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.584;0.6093;1" values="0 14;0 14;0 0;0 0"></animateTransform>
   </g>
