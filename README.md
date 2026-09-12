@@ -112,6 +112,22 @@ The agent's `retrieve` tool scored $\textcolor{#FFD93D}{\textbf{0/10 → 6/10}}$
 
 ---
 
+### EvalOS
+
+*A quality-assurance platform for AI applications — it runs automated tests to check whether an AI system's answers are correct, grounded in real data, and cost-effective, acting as a safety check before deployment.*
+
+**Project Context:** [MASTER.md](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/MASTER.md)
+
+| Impact | Benchmarks | Engineering Log | Limitations |
+|---|---|---|---|
+| **60%** faster benchmark runs via bounded concurrency · **0.132 MAE** surfaced LLM-judge leniency vs. humans · a **-4.2pp** regression correctly flagged as inconclusive rather than a false failure | [BENCHMARKS.md](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/BENCHMARKS.md) | [Alembic migration bug](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/03_INFRASTRUCTURE_AND_PRODUCT.md) | [What EvalOS doesn't guarantee](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/MASTER.md) |
+
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/evalos-bug-trace.svg" width="100%"/>
+
+An Alembic auto-generated migration would have $\textcolor{#FFD93D}{\textbf{silently dropped}}$ the `search_vector` full-text-search column on any fresh database clone — SQLAlchemy's models never knew the column existed since it was added via raw SQL, so autogenerate correctly inferred it should be deleted, threatening to break retrieval before a single query ran. The fix was $\textcolor{#4ECDC4}{\textbf{manually editing}}$ that migration to preserve the FTS infrastructure while still applying the intended schema change.
+
+---
+
 <a name="featured-projects"></a>
 ## 🚀 Featured Projects
 

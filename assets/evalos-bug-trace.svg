@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="580" viewBox="0 0 1080 580" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <filter id="g" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="4" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    <filter id="gs" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 L0 40" fill="none" stroke="#191922" stroke-width="1"></path>
+    </pattern>
+  </defs>
+  <rect width="1080" height="580" fill="#0d0d12"></rect>
+  <rect width="1080" height="580" fill="url(#grid)" opacity="0.55"></rect>
+
+  <text x="30" y="44" fill="#4ECDC4" font-size="17" font-weight="bold" letter-spacing="2.5">EVALOS v1.0.0</text>
+  <text x="216" y="44" fill="#b6b6ca" font-size="17" font-weight="bold" letter-spacing="1.4">/ EVALUATION PIPELINE /</text>
+  <text x="500" y="44" fill="#FF6B6B" font-size="17" font-weight="bold" letter-spacing="1.6">BUG #8</text>
+  <path d="M30 60 L1050 60" stroke="#23232e" stroke-width="1"></path>
+
+  <g fill="none" stroke="#2b2b38" stroke-width="1.5">
+    <path d="M180,200 L204,200"></path>
+    <path d="M354,200 L378,200"></path>
+    <path d="M528,200 L552,200"></path>
+    <path d="M702,200 L726,200"></path>
+    <path d="M876,200 L900,200"></path>
+  </g>
+  <g fill="none" stroke="#4ECDC4" stroke-width="2">
+    <path d="M180,200 L204,200" opacity="0">
+      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.025;0.0333;0.0667;0.08;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+    </path>
+    <path d="M354,200 L378,200" opacity="0">
+      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.1;0.1083;0.1417;0.155;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+    </path>
+    <path d="M528,200 L552,200" opacity="0">
+      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;0.5083;0.5333;0.5467;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+    </path>
+    <path d="M702,200 L726,200" opacity="0">
+      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.5667;0.575;0.6;0.6133;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+    </path>
+    <path d="M876,200 L900,200" opacity="0">
+      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.625;0.6333;0.6583;0.6717;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+    </path>
+  </g>
+
+  <rect x="30" y="161" width="150" height="78" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="105" y="195" text-anchor="middle" fill="#a0a0b6" font-size="18" font-weight="bold" letter-spacing="0.6">DATASET</text>
+  <text x="105" y="218" text-anchor="middle" fill="#9a9ab2" font-size="14" letter-spacing="0.5">36 questions</text>
+  <g opacity="0">
+    <rect x="30" y="161" width="150" height="78" rx="3" fill="none" stroke="#4ECDC4" stroke-width="2"></rect>
+    <text x="105" y="195" text-anchor="middle" fill="#4ECDC4" font-size="18" font-weight="bold" letter-spacing="0.6">DATASET</text>
+    <text x="105" y="218" text-anchor="middle" fill="#b6e8e4" font-size="14" letter-spacing="0.5">36 questions</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.0042;0.0667;0.08;0.95;0.99;1" values="0;1;1;0.45;0.45;0;0"></animate>
+  </g>
+
+  <rect x="204" y="161" width="150" height="78" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="279" y="195" text-anchor="middle" fill="#a0a0b6" font-size="18" font-weight="bold" letter-spacing="0.6">RUNENGINE</text>
+  <text x="279" y="218" text-anchor="middle" fill="#9a9ab2" font-size="14" letter-spacing="0.5">Semaphore(5)</text>
+  <g opacity="0">
+    <rect x="204" y="161" width="150" height="78" rx="3" fill="none" stroke="#4ECDC4" stroke-width="2"></rect>
+    <text x="279" y="195" text-anchor="middle" fill="#4ECDC4" font-size="18" font-weight="bold" letter-spacing="0.6">RUNENGINE</text>
+    <text x="279" y="218" text-anchor="middle" fill="#b6e8e4" font-size="14" letter-spacing="0.5">Semaphore(5)</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.0625;0.0708;0.1417;0.155;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
+  </g>
+
+  <text x="378" y="124" fill="#d08585" font-size="13.5" font-weight="bold" letter-spacing="1.8">BUG</text>
+  <text x="378" y="142" fill="#d08585" font-size="13.5" font-weight="bold" letter-spacing="1.8">SITE</text>
+  <rect x="378" y="161" width="150" height="78" rx="3" fill="#150f11" stroke="#5c3a42" stroke-width="1.6" stroke-dasharray="5 3"></rect>
+  <text x="453" y="195" text-anchor="middle" fill="#d4aab0" font-size="18" font-weight="bold" letter-spacing="0.6">ADAPTER</text>
+  <text x="453" y="218" text-anchor="middle" fill="#c49298" font-size="14" letter-spacing="0.5">pgvector + FTS</text>
+  <text x="453" y="338" text-anchor="middle" fill="#c07a7a" font-size="13.5" font-weight="bold" letter-spacing="1.6">BUG #8 · MIGRATION LAYER</text>
+  <g opacity="0">
+    <text x="453" y="338" text-anchor="middle" fill="#FFD93D" font-size="13.5" font-weight="bold" letter-spacing="1.6">BUG #8 · MIGRATION LAYER</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.15;0.1592;0.475;0.4833;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <text x="453" y="360" text-anchor="middle" fill="#8e8ea4" font-size="13" letter-spacing="1.4">STAGE 3 · SYSTEM ADAPTER</text>
+  <g opacity="0">
+    <rect x="378" y="161" width="150" height="78" rx="3" fill="none" stroke="#4ECDC4" stroke-width="2"></rect>
+    <text x="453" y="195" text-anchor="middle" fill="#4ECDC4" font-size="18" font-weight="bold" letter-spacing="0.6">ADAPTER</text>
+    <text x="453" y="218" text-anchor="middle" fill="#b6e8e4" font-size="14" letter-spacing="0.5">pgvector + FTS</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.1375;0.1433;0.15;0.1592;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <g opacity="0" filter="url(#g)">
+    <rect x="372" y="155" width="162" height="90" rx="3" fill="#1a1410" stroke="#FF6B6B" stroke-width="2.6" stroke-dasharray="6 4">
+      <animate attributeName="stroke-dasharray" dur="0.8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5" values="6 4;0"></animate>
+    </rect>
+    <text x="453" y="192" text-anchor="middle" fill="#FFD93D" font-size="18" font-weight="bold" letter-spacing="0.6">ADAPTER</text>
+    <text x="453" y="214" text-anchor="middle" fill="#FF8A8A" font-size="14" letter-spacing="0.5">pgvector + FTS</text>
+    <text x="453" y="235" text-anchor="middle" fill="#FF6B6B" font-size="13.5" font-weight="bold" letter-spacing="1">SCHEMA MISSING</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.15;0.1575;0.475;0.4792;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <g opacity="0">
+    <path d="M453,98 L471,132 L435,132 Z" fill="#1a1410" stroke="#FFD93D" stroke-width="2.2" stroke-linejoin="round"></path>
+    <text x="453" y="128" text-anchor="middle" fill="#FFD93D" font-size="17" font-weight="bold">!</text>
+    <path d="M453,134 L453,153" stroke="#FFD93D" stroke-width="1.2" stroke-dasharray="3 3"></path>
+    <text x="453" y="272" text-anchor="middle" fill="#FF6B6B" font-size="15" font-weight="bold" letter-spacing="0.6">alembic --autogenerate emits DROP COLUMN search_vector</text>
+    <text x="453" y="294" text-anchor="middle" fill="#c08e8e" font-size="14" letter-spacing="0.5">tsvector column absent from models.py · FTS query crashes</text>
+    <text x="453" y="314" text-anchor="middle" fill="#a07878" font-size="13.5" letter-spacing="0.5">fails before the LLM is called, on any fresh `alembic upgrade head`</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.15;0.1592;0.475;0.4833;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <g opacity="0">
+    <rect x="378" y="161" width="150" height="78" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2.2"></rect>
+    <text x="453" y="195" text-anchor="middle" fill="#4ECDC4" font-size="18" font-weight="bold" letter-spacing="0.6">ADAPTER</text>
+    <text x="453" y="218" text-anchor="middle" fill="#b6e8e4" font-size="14" letter-spacing="0.5">pgvector + FTS</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.4792;0.4875;0.5;0.5333;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
+  </g>
+  <g opacity="0">
+    <text x="453" y="272" text-anchor="middle" fill="#4ECDC4" font-size="15" font-weight="bold" letter-spacing="0.6">destructive DROP commented out in 56cee4274b8e</text>
+    <text x="453" y="294" text-anchor="middle" fill="#86c2bc" font-size="14" letter-spacing="0.5">run_fingerprint still applied · FTS infrastructure preserved</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.4875;0.4958;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+  </g>
+
+  <rect x="552" y="161" width="150" height="78" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="627" y="195" text-anchor="middle" fill="#a0a0b6" font-size="18" font-weight="bold" letter-spacing="0.6">EVALUATORS</text>
+  <text x="627" y="218" text-anchor="middle" fill="#9a9ab2" font-size="14" letter-spacing="0.5">judge + metrics</text>
+  <g opacity="0">
+    <rect x="552" y="161" width="150" height="78" rx="3" fill="none" stroke="#9333EA" stroke-width="2"></rect>
+    <text x="627" y="195" text-anchor="middle" fill="#c084fc" font-size="18" font-weight="bold" letter-spacing="0.6">EVALUATORS</text>
+    <text x="627" y="218" text-anchor="middle" fill="#c79bf5" font-size="14" letter-spacing="0.5">judge + metrics</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.525;0.5333;0.5667;0.5833;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
+  </g>
+
+  <rect x="726" y="161" width="150" height="78" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="801" y="195" text-anchor="middle" fill="#a0a0b6" font-size="18" font-weight="bold" letter-spacing="0.6">DATABASE</text>
+  <text x="801" y="218" text-anchor="middle" fill="#9a9ab2" font-size="14" letter-spacing="0.5">Neon Postgres</text>
+  <g opacity="0">
+    <rect x="726" y="161" width="150" height="78" rx="3" fill="none" stroke="#4ECDC4" stroke-width="2"></rect>
+    <text x="801" y="195" text-anchor="middle" fill="#4ECDC4" font-size="18" font-weight="bold" letter-spacing="0.6">DATABASE</text>
+    <text x="801" y="218" text-anchor="middle" fill="#b6e8e4" font-size="14" letter-spacing="0.5">Neon Postgres</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.5917;0.6;0.625;0.6417;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
+  </g>
+
+  <rect x="900" y="161" width="150" height="78" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
+  <text x="975" y="195" text-anchor="middle" fill="#a0a0b6" font-size="18" font-weight="bold" letter-spacing="0.6">ANALYSIS</text>
+  <text x="975" y="218" text-anchor="middle" fill="#9a9ab2" font-size="14" letter-spacing="0.5">bootstrap CIs</text>
+  <g opacity="0" filter="url(#g)">
+    <rect x="900" y="161" width="150" height="78" rx="3" fill="#1a1608" stroke="#FFD93D" stroke-width="2.2"></rect>
+    <text x="975" y="195" text-anchor="middle" fill="#FFD93D" font-size="18" font-weight="bold" letter-spacing="0.6">ANALYSIS</text>
+    <text x="975" y="218" text-anchor="middle" fill="#f2e0a0" font-size="14" letter-spacing="0.5">bootstrap CIs</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.65;0.6583;0.6833;0.7;0.95;0.99;1" values="0;0;1;1;0.6;0.6;0;0"></animate>
+  </g>
+
+  <g opacity="0" filter="url(#g)">
+    <circle r="13" fill="#4ECDC4" opacity="0.22">
+      <animate attributeName="fill" dur="24s" repeatCount="indefinite" keyTimes="0;0.15;0.1575;0.4792;0.4906;1" values="#4ECDC4;#4ECDC4;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4"></animate>
+    </circle>
+    <circle r="6" fill="#4ECDC4">
+      <animate attributeName="fill" dur="24s" repeatCount="indefinite" keyTimes="0;0.15;0.1575;0.4792;0.4906;1" values="#4ECDC4;#4ECDC4;#FFD93D;#FFD93D;#4ECDC4;#4ECDC4"></animate>
+      <animate attributeName="r" dur="24s" repeatCount="indefinite" keyTimes="0;0.1575;0.17;0.1825;0.195;0.2075;0.22;1" values="6;6;9;6;9;6;6;6"></animate>
+    </circle>
+    <animateMotion dur="24s" repeatCount="indefinite" calcMode="linear" path="M105,200 L279,200 L453,200" keyTimes="0;0.025;0.0667;0.1;0.1417;0.4792;1" keyPoints="0;0;0.5;0.5;1;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.0042;0.4792;0.4917;1" values="0;1;1;0;0"></animate>
+  </g>
+
+  <g opacity="0" filter="url(#g)">
+    <circle r="13" fill="#4ECDC4" opacity="0.22"></circle>
+    <circle r="6" fill="#4ECDC4"></circle>
+    <animateMotion dur="24s" repeatCount="indefinite" calcMode="linear" path="M453,200 L627,200 L801,200 L975,200" keyTimes="0;0.5;0.5333;0.5833;0.6;0.65;0.6583;1" keyPoints="0;0;0.3333;0.3333;0.6667;0.6667;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.4958;0.5;0.6583;0.6708;1" values="0;0;1;1;0;0"></animate>
+  </g>
+
+  <g opacity="0">
+    <path d="M30 396 L1050 396" stroke="#23232e" stroke-width="1"></path>
+    <text x="30" y="426" fill="#b6b6ca" font-size="15" font-weight="bold" letter-spacing="2.2">THROUGHPUT · CONCURRENCY</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.6833;0.6917;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+  </g>
+  <g opacity="0">
+    <g filter="url(#gs)">
+      <text x="30" y="500" fill="#4ECDC4" font-size="60" font-weight="bold" letter-spacing="-1">−60%</text>
+    </g>
+    <text x="30" y="530" fill="#b6e8e4" font-size="18" letter-spacing="0.8">benchmark wall-clock</text>
+    <text x="30" y="554" fill="#9a9ab2" font-size="14" letter-spacing="0.5">~10 min sequential → ~3.5 min concurrent</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.7;0.7292;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+    <animateTransform attributeName="transform" type="translate" dur="24s" repeatCount="indefinite" keyTimes="0;0.7;0.7292;1" values="0 14;0 14;0 0;0 0"></animateTransform>
+  </g>
+  <g opacity="0">
+    <path d="M596 420 L596 560" stroke="#2b2b38" stroke-width="1"></path>
+    <g filter="url(#gs)">
+      <text x="632" y="448" fill="#c084fc" font-size="15" font-weight="bold" letter-spacing="2.4">MEASURED</text>
+    </g>
+    <text x="632" y="478" fill="#9fb3d6" font-size="14" font-weight="bold" letter-spacing="0.5">36 examples × 5 models</text>
+    <text x="632" y="502" fill="#9fb3d6" font-size="14" font-weight="bold" letter-spacing="0.5">180 generations + 180 judge calls</text>
+    <text x="632" y="526" fill="#9fb3d6" font-size="14" font-weight="bold" letter-spacing="0.5">asyncio.Semaphore(5) · no rate-limit errors</text>
+    <text x="632" y="554" fill="#9fb3d6" font-size="13.5" font-weight="bold" letter-spacing="0.5">wall-clock, single run — not a population claim</text>
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" keyTimes="0;0.7333;0.7625;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+  </g>
+</svg>
