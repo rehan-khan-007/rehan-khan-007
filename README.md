@@ -104,7 +104,7 @@ Not a highlight reel: real measurements, honest uncertainty, and the bugs that a
 
 | Impact | Benchmarks | Engineering Log | Limitations |
 |---|---|---|---|
-| **94.3%** retrieval recall@3 · **41.5%** cost savings via routing · **86.7%** tool-selection accuracy (post-fix) | [BENCHMARKS.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/evals/results/BENCHMARKS.md) | [Tool-selection bug: 0/10 → 6/10](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/04_EVALUATION_AND_BENCHMARKS.md) | [Known gaps](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/05_PRODUCT_AND_ROADMAP.md) |
+| **94.3%** retrieval recall@3 · **41.5%** cost savings via routing · **86.7%** tool-selection accuracy (post-fix) | [BENCHMARKS.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/evals/results/BENCHMARKS.md) | [Tool-selection bug: 0/10 → 6/10](https://github.com/rehan-khan-007/Agent-OS/blob/main/ENGINEERING_LOG.md) | [Known gaps](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/05_PRODUCT_AND_ROADMAP.md) |
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/agentos-bug-trace.svg" width="100%"/>
 
