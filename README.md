@@ -108,9 +108,7 @@ Not a highlight reel: real measurements, honest uncertainty, and the bugs that a
 
 <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/agentos-bug-trace.svg" width="100%"/>
 
-The agent's `retrieve` tool scored 0 out of 10 on questions that should have triggered a document lookup, answering from pretrained knowledge instead of the real 132-document corpus. The bug wasn't in retrieval itself — the tool's description told the model to use it only for user-uploaded files, a leftover instruction from an earlier design, so the model was correctly following guidance that was simply wrong. Rewriting the description to reflect the corpus's real, standing nature fixed it, taking the score from 0/10 to 6/10 with zero regression on the other 20 tasks.
-
-A separate retrieval ablation turned up an honest non-win worth keeping in: BM25-only scored 91.4%, dense-only and the full hybrid pipeline both scored 94.3% — hybrid didn't outperform dense-only on this dataset, and that's reported as a tie rather than spun as a win. The more interesting detail underneath: hybrid and dense-only actually missed *different* questions despite matching scores, suggesting real complementary behavior rather than plain redundancy at this sample size.
+The agent's `retrieve` tool scored $\textcolor{#FFD93D}{\textbf{0/10 → 6/10}}$ after a fix: its description restricted it to user-uploaded files — a leftover instruction the model was correctly following even though it was wrong — so rewriting it to reflect the real, standing corpus solved the bug with zero regression elsewhere. A separate ablation turned up an $\textcolor{#4ECDC4}{\textbf{honest non-win}}$: BM25 scored 91.4% while dense and hybrid tied at 94.3%, though they missed different questions — hinting at real complementary behavior rather than plain redundancy.
 
 ---
 
