@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="numglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="560" fill="#0d0d12"/>
+
+  <text x="40" y="42" fill="#4ECDC4" font-size="16" letter-spacing="3.5">ENGINEERING EVIDENCE</text>
+  <text x="1040" y="42" fill="#6b6b7a" font-size="14" text-anchor="end" letter-spacing="1.5">WORKFLOW ORCHESTRATION ENGINE</text>
+  <line x1="40" y1="58" x2="1040" y2="58" stroke="#1e1e28" stroke-width="1"/>
+
+  <line x1="160" y1="210" x2="210" y2="210" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.045;0.081;0.126;0.171;1"/>
+  </line>
+  <line x1="320" y1="210" x2="370" y2="210" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.126;0.162;0.207;0.252;1"/>
+  </line>
+  <line x1="510" y1="210" x2="560" y2="210" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#9333EA;#9333EA;#23232f;#23232f" keyTimes="0;0.207;0.243;0.288;0.333;1"/>
+  </line>
+
+  <path d="M680,210 C706,210 706,145 730,145" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#FFD93D;#FFD93D;#23232f;#23232f" keyTimes="0;0.306;0.36;0.766;0.82;1"/>
+  </path>
+  <path d="M680,210 C706,210 706,188 730,188" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#FFD93D;#FFD93D;#23232f;#23232f" keyTimes="0;0.306;0.369;0.766;0.82;1"/>
+  </path>
+  <path d="M680,210 C706,210 706,231 730,231" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#FFD93D;#FFD93D;#23232f;#23232f" keyTimes="0;0.306;0.378;0.766;0.82;1"/>
+  </path>
+  <path d="M680,210 C706,210 706,274 730,274" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#FFD93D;#FFD93D;#23232f;#23232f" keyTimes="0;0.306;0.387;0.766;0.82;1"/>
+  </path>
+
+  <path d="M840,145 C872,145 872,210 900,210" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.784;0.82;0.892;0.937;1"/>
+  </path>
+  <path d="M840,188 C872,188 872,210 900,210" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.784;0.829;0.892;0.937;1"/>
+  </path>
+  <path d="M840,231 C872,231 872,210 900,210" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.784;0.838;0.892;0.937;1"/>
+  </path>
+  <path d="M840,274 C872,274 872,210 900,210" fill="none" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.784;0.847;0.892;0.937;1"/>
+  </path>
+
+  <rect x="716" y="116" width="138" height="188" rx="6" fill="none" stroke="#FFD93D" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="785" y="106" fill="#FFD93D" font-size="14" text-anchor="middle" letter-spacing="1.5" opacity="0.85">WORKERS &#215; N</text>
+  <rect x="716" y="116" width="138" height="188" rx="6" fill="#FF6B6B" opacity="0">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;0.18;0.18;0;0" keyTimes="0;0.414;0.459;0.612;0.757;1"/>
+  </rect>
+
+  <rect x="40" y="180" width="120" height="60" rx="5" fill="#14141c" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.009;0.036;0.09;0.135;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#14141c;#14141c;#132322;#132322;#14141c;#14141c" keyTimes="0;0.009;0.036;0.09;0.135;1"/>
+  </rect>
+  <text x="100" y="208" fill="#e8e8f0" font-size="17" text-anchor="middle" letter-spacing="1">CLIENT</text>
+  <text x="100" y="226" fill="#8a8a99" font-size="14" text-anchor="middle">submit</text>
+
+  <rect x="210" y="180" width="110" height="60" rx="5" fill="#14141c" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4;#23232f;#23232f" keyTimes="0;0.081;0.108;0.171;0.216;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#14141c;#14141c;#132322;#132322;#14141c;#14141c" keyTimes="0;0.081;0.108;0.171;0.216;1"/>
+  </rect>
+  <text x="265" y="208" fill="#e8e8f0" font-size="17" text-anchor="middle" letter-spacing="1">API</text>
+  <text x="265" y="226" fill="#8a8a99" font-size="14" text-anchor="middle">validate</text>
+
+  <rect x="370" y="180" width="140" height="60" rx="5" fill="#14141c" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#9333EA;#9333EA;#23232f;#23232f" keyTimes="0;0.162;0.189;0.252;0.297;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#14141c;#14141c;#1b1328;#1b1328;#14141c;#14141c" keyTimes="0;0.162;0.189;0.252;0.297;1"/>
+  </rect>
+  <text x="440" y="205" fill="#e8e8f0" font-size="16" text-anchor="middle" letter-spacing="1">POSTGRES</text>
+  <text x="440" y="226" fill="#C084FC" font-size="14" text-anchor="middle">DAG COORD</text>
+
+  <rect x="560" y="180" width="120" height="60" rx="5" fill="#14141c" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#9333EA;#9333EA;#23232f;#23232f" keyTimes="0;0.243;0.27;0.36;0.405;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#14141c;#14141c;#1b1328;#1b1328;#14141c;#14141c" keyTimes="0;0.243;0.27;0.36;0.405;1"/>
+  </rect>
+  <text x="620" y="205" fill="#e8e8f0" font-size="16" text-anchor="middle" letter-spacing="1">REDIS</text>
+  <text x="620" y="226" fill="#C084FC" font-size="14" text-anchor="middle">QUEUE</text>
+
+  <rect x="730" y="129" width="110" height="32" rx="4" fill="#17160f" stroke="#6b5a1a" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#6b5a1a;#6b5a1a;#FFD93D;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4" keyTimes="0;0.324;0.387;0.45;0.748;0.802;1"/>
+    <animate attributeName="stroke-width" dur="10s" repeatCount="indefinite" values="1.5;1.5;2.4;2.4" keyTimes="0;0.324;0.396;1"/>
+  </rect>
+  <text x="785" y="150" fill="#cfcfdb" font-size="14" text-anchor="middle">WORKER 1</text>
+
+  <rect x="730" y="172" width="110" height="32" rx="4" fill="#17160f" stroke="#6b5a1a" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#6b5a1a;#6b5a1a;#FFD93D;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4" keyTimes="0;0.324;0.396;0.459;0.748;0.811;1"/>
+    <animate attributeName="stroke-width" dur="10s" repeatCount="indefinite" values="1.5;1.5;2.4;2.4" keyTimes="0;0.324;0.405;1"/>
+  </rect>
+  <text x="785" y="193" fill="#cfcfdb" font-size="14" text-anchor="middle">WORKER 2</text>
+
+  <rect x="730" y="215" width="110" height="32" rx="4" fill="#17160f" stroke="#6b5a1a" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#6b5a1a;#6b5a1a;#FFD93D;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4" keyTimes="0;0.324;0.405;0.468;0.748;0.82;1"/>
+    <animate attributeName="stroke-width" dur="10s" repeatCount="indefinite" values="1.5;1.5;2.4;2.4" keyTimes="0;0.324;0.414;1"/>
+  </rect>
+  <text x="785" y="236" fill="#cfcfdb" font-size="14" text-anchor="middle">WORKER 3</text>
+
+  <rect x="730" y="258" width="110" height="32" rx="4" fill="#17160f" stroke="#6b5a1a" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#6b5a1a;#6b5a1a;#FFD93D;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4" keyTimes="0;0.324;0.414;0.477;0.748;0.829;1"/>
+    <animate attributeName="stroke-width" dur="10s" repeatCount="indefinite" values="1.5;1.5;2.4;2.4" keyTimes="0;0.324;0.423;1"/>
+  </rect>
+  <text x="785" y="279" fill="#cfcfdb" font-size="14" text-anchor="middle">WORKER 4</text>
+
+  <rect x="900" y="180" width="140" height="60" rx="5" fill="#14141c" stroke="#23232f" stroke-width="1.5">
+    <animate attributeName="stroke" dur="10s" repeatCount="indefinite" values="#23232f;#23232f;#4ECDC4;#4ECDC4" keyTimes="0;0.865;0.892;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#14141c;#14141c;#132322;#132322" keyTimes="0;0.865;0.892;1"/>
+  </rect>
+  <text x="970" y="205" fill="#e8e8f0" font-size="16" text-anchor="middle" letter-spacing="1">CLIENT</text>
+  <text x="970" y="226" fill="#4ECDC4" font-size="14" text-anchor="middle">PUB/SUB</text>
+
+  <circle r="5.5" fill="#4ECDC4" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M150,210 H565" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.018;0.297;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.018;0.045;0.279;0.306;1"/>
+    <animate attributeName="fill" dur="10s" repeatCount="indefinite" values="#4ECDC4;#4ECDC4;#9333EA;#9333EA" keyTimes="0;0.18;0.234;1"/>
+  </circle>
+
+  <circle r="4.5" fill="#FFD93D" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M680,210 C706,210 706,145 730,145" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.306;0.396;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.306;0.324;0.387;0.405;1"/>
+  </circle>
+  <circle r="4.5" fill="#FFD93D" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M680,210 C706,210 706,188 730,188" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.306;0.405;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.306;0.333;0.396;0.414;1"/>
+  </circle>
+  <circle r="4.5" fill="#FFD93D" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M680,210 C706,210 706,231 730,231" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.306;0.414;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.306;0.342;0.405;0.423;1"/>
+  </circle>
+  <circle r="4.5" fill="#FFD93D" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M680,210 C706,210 706,274 730,274" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.306;0.423;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.306;0.351;0.414;0.432;1"/>
+  </circle>
+
+  <circle r="4.5" fill="#4ECDC4" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M840,145 C872,145 872,210 900,210" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.802;0.883;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.802;0.82;0.874;0.892;1"/>
+  </circle>
+  <circle r="4.5" fill="#4ECDC4" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M840,188 C872,188 872,210 900,210" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.811;0.892;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.811;0.829;0.883;0.901;1"/>
+  </circle>
+  <circle r="4.5" fill="#4ECDC4" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M840,231 C872,231 872,210 900,210" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.82;0.901;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.82;0.838;0.892;0.91;1"/>
+  </circle>
+  <circle r="4.5" fill="#4ECDC4" opacity="0" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M840,274 C872,274 872,210 900,210" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.829;0.91;1"/>
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.829;0.847;0.901;0.919;1"/>
+  </circle>
+
+  <g opacity="0">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.423;0.45;0.757;0.784;1"/>
+    <text x="785" y="326" fill="#FF6B6B" font-size="15" text-anchor="middle" letter-spacing="0.5">[!] 244.9% WORKER UTILIZATION</text>
+    <text x="785" y="345" fill="#c47c7c" font-size="14" text-anchor="middle">host timer vs container db clock &#183; drifted</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.775;0.802;1"/>
+    <text x="785" y="326" fill="#4ECDC4" font-size="15" text-anchor="middle" letter-spacing="0.5">[ok] SINGLE CLOCK SOURCE</text>
+    <text x="785" y="345" fill="#79a8a4" font-size="14" text-anchor="middle">utilization re-measured against one timer</text>
+  </g>
+
+  <line x1="40" y1="382" x2="1040" y2="382" stroke="#1e1e28" stroke-width="1"/>
+
+  <g opacity="0.45" filter="url(#numglow)">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0.45;0.45;1;1" keyTimes="0;0.874;0.91;1"/>
+    <text x="240" y="470" fill="#4ECDC4" font-size="52" text-anchor="middle">7.84&#215;</text>
+    <text x="240" y="502" fill="#4ECDC4" font-size="16" text-anchor="middle">throughput, 8 workers vs 1</text>
+  </g>
+  <g opacity="0.45" filter="url(#numglow)">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0.45;0.45;1;1" keyTimes="0;0.892;0.928;1"/>
+    <text x="540" y="470" fill="#C084FC" font-size="52" text-anchor="middle">100%</text>
+    <text x="540" y="502" fill="#C084FC" font-size="16" text-anchor="middle">crash recovery, avg 4.27s</text>
+  </g>
+  <g opacity="0.45" filter="url(#numglow)">
+    <animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0.45;0.45;1;1" keyTimes="0;0.91;0.946;1"/>
+    <text x="840" y="470" fill="#FFD93D" font-size="52" text-anchor="middle">102/102</text>
+    <text x="840" y="502" fill="#FFD93D" font-size="16" text-anchor="middle">tests passing, Postgres+Redis</text>
+  </g>
+</svg>

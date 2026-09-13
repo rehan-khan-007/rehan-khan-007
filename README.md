@@ -128,6 +128,22 @@ An Alembic auto-generated migration would have $\textcolor{#FFD93D}{\textbf{sile
 
 ---
 
+### Workflow Orchestration Engine
+
+*A system that runs a set of dependent tasks automatically, in the right order and in parallel where possible, while surviving real crashes without losing or duplicating work — proven to scale nearly 8× across 8 workers and recover from every injected failure within 10 seconds.*
+
+**Project Context:** [README.md](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md)
+
+| Impact | Benchmarks | Engineering Log | Limitations |
+|---|---|---|---|
+| **7.84×** throughput at 8 workers vs. 1 · **100%** crash recovery, avg 4.27s · **102/102** tests passing on real Postgres + Redis | [Benchmark Results](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md) | [Bug #5: impossible utilization](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/ENGINEERING_LOG.md) | [Known limitations](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md#known-limitations--not-yet-done) |
+
+<img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/woe-bug-trace.svg" width="100%"/>
+
+A benchmark run once measured worker utilization at $\textcolor{#FFD93D}{\textbf{244.9\%}}$ — mathematically impossible with only 4 workers — which led to catching a real infrastructure bug: the calculation was comparing $\textcolor{#4ECDC4}{\textbf{two different clocks}}$, the host machine's timer against Postgres's own timestamps from inside a Docker container, whose VM clock had silently drifted. The fix was measuring busy-time within a single process using one clock instead of comparing timestamps across two.
+
+---
+
 <a name="featured-projects"></a>
 ## 🚀 Featured Projects
 
