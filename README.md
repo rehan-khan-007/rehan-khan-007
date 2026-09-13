@@ -102,7 +102,7 @@ Not a highlight reel: real measurements, honest uncertainty, and the bugs that a
 
 **Project Context:** [MASTER.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/MASTER.md)
 
-| Impact | Benchmarks | Engineering Log | Limitations |
+| $\textcolor{#FFD93D}{\textbf{Impact}}$ | $\textcolor{#4ECDC4}{\textbf{Benchmarks}}$ | $\textcolor{#FF6B6B}{\textbf{Engineering Log}}$ | $\textcolor{#9333EA}{\textbf{Limitations}}$ |
 |---|---|---|---|
 | **94.3%** retrieval recall@3 · **41.5%** cost savings via routing · **86.7%** tool-selection accuracy (post-fix) | [BENCHMARKS.md](https://github.com/rehan-khan-007/Agent-OS/blob/main/evals/results/BENCHMARKS.md) | [Tool-selection bug: 0/10 → 6/10](https://github.com/rehan-khan-007/Agent-OS/blob/main/ENGINEERING_LOG.md) | [Known gaps](https://github.com/rehan-khan-007/Agent-OS/blob/main/docs/handoff/05_PRODUCT_AND_ROADMAP.md) |
 
@@ -118,7 +118,7 @@ The agent's `retrieve` tool scored $\textcolor{#FFD93D}{\textbf{0/10 → 6/10}}$
 
 **Project Context:** [README.md](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md)
 
-| Impact | Benchmarks | Engineering Log | Limitations |
+| $\textcolor{#FFD93D}{\textbf{Impact}}$ | $\textcolor{#4ECDC4}{\textbf{Benchmarks}}$ | $\textcolor{#FF6B6B}{\textbf{Engineering Log}}$ | $\textcolor{#9333EA}{\textbf{Limitations}}$ |
 |---|---|---|---|
 | **7.84×** throughput at 8 workers vs. 1 · **100%** crash recovery, avg 4.27s · **102/102** tests passing on real Postgres + Redis | [Benchmark Results](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md) | [Bug #5: impossible utilization](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/ENGINEERING_LOG.md) | [Known limitations](https://github.com/rehan-khan-007/Workflow-Orchestration-Engine/blob/main/README.md#known-limitations--not-yet-done) |
 
@@ -134,7 +134,7 @@ A benchmark run once measured worker utilization at $\textcolor{#FFD93D}{\textbf
 
 **Project Context:** [MASTER.md](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/MASTER.md)
 
-| Impact | Benchmarks | Engineering Log | Limitations |
+| $\textcolor{#FFD93D}{\textbf{Impact}}$ | $\textcolor{#4ECDC4}{\textbf{Benchmarks}}$ | $\textcolor{#FF6B6B}{\textbf{Engineering Log}}$ | $\textcolor{#9333EA}{\textbf{Limitations}}$ |
 |---|---|---|---|
 | **60%** faster benchmark runs via bounded concurrency · **0.132 MAE** surfaced LLM-judge leniency vs. humans · a **-4.2pp** regression correctly flagged as inconclusive rather than a false failure | [BENCHMARKS.md](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/BENCHMARKS.md) | [Alembic migration bug](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/03_INFRASTRUCTURE_AND_PRODUCT.md) | [What EvalOS doesn't guarantee](https://github.com/rehan-khan-007/Eval-OS/blob/main/docs/handoff/MASTER.md) |
 
