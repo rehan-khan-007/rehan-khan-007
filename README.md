@@ -96,7 +96,7 @@ $\textcolor{#FF6B6B}{\texttt{\textbf{quantum optimal control.}}}$
 
 Not a highlight reel: real measurements, honest uncertainty, and the bugs that actually got found and fixed.
 
-### AgentOS
+### $\textcolor{#FFD93D}{\textbf{AgentOS}}$
 
 *An AI agent that answers questions using a real, searchable knowledge base instead of guessing. Every performance claim here is backed by a real, repeatable test, including the one time a bug made it fail completely before it was found and fixed.*
 
@@ -112,7 +112,7 @@ The agent's `retrieve` tool scored $\textcolor{#FFD93D}{\textbf{0/10 → 6/10}}$
 
 ---
 
-### Workflow Orchestration Engine
+### $\textcolor{#FF6B6B}{\textbf{Workflow Orchestration Engine}}$
 
 *A system that runs a set of dependent tasks automatically, in the right order and in parallel where possible, while surviving real crashes without losing or duplicating work — proven to scale nearly 8× across 8 workers and recover from every injected failure within 10 seconds.*
 
@@ -128,7 +128,7 @@ A benchmark run once measured worker utilization at $\textcolor{#FFD93D}{\textbf
 
 ---
 
-### EvalOS
+### $\textcolor{#4ECDC4}{\textbf{EvalOS}}$
 
 *A quality-assurance platform for AI applications — it runs automated tests to check whether an AI system's answers are correct, grounded in real data, and cost-effective, acting as a safety check before deployment.*
 
