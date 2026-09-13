@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560" font-family="'Courier New', Courier, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="370" viewBox="0 0 1080 370" font-family="'Courier New', Courier, monospace">
   <defs>
     <filter id="g" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="4" result="b"></feGaussianBlur>
-      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
-    </filter>
-    <filter id="gs" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur>
       <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
     </filter>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0 L0 0 L0 40" fill="none" stroke="#191922" stroke-width="1"></path>
     </pattern>
   </defs>
-  <rect width="1080" height="560" fill="#0d0d12"></rect>
-  <rect width="1080" height="560" fill="url(#grid)" opacity="0.55"></rect>
+  <rect width="1080" height="370" fill="#0d0d12"></rect>
+  <rect width="1080" height="370" fill="url(#grid)" opacity="0.55"></rect>
 
   <text x="30" y="44" fill="#4ECDC4" font-size="17" font-weight="bold" letter-spacing="2.5">PIPELINE TRACE</text>
   <text x="222" y="44" fill="#b6b6ca" font-size="17" font-weight="bold" letter-spacing="1.4">/ AGENT DECISION LAYER /</text>
@@ -33,34 +29,34 @@
 
   <g fill="none" stroke="#4ECDC4" stroke-width="1.8">
     <path d="M180,200 L216,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0333;0.0433;0.0889;0.1067;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.0545;0.0709;0.1455;0.1746;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
     </path>
     <path d="M406,200 L442,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.1333;0.1433;0.1889;0.2067;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.2182;0.2345;0.3091;0.3382;0.95;0.99;1" values="0;0;1;1;0.3;0.3;0;0"></animate>
     </path>
   </g>
   <g fill="none" stroke="#FF6B6B" stroke-width="2.4">
     <path d="M642,200 C664,200 664,122 686,122" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.4;0.4;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.5455;0.5618;0.6182;0.6545;0.95;0.99;1" values="0;0;1;1;0.4;0.4;0;0"></animate>
     </path>
   </g>
   <g fill="none" stroke="#9333EA" stroke-width="1.8">
     <path d="M642,200 L686,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.5455;0.5618;0.6182;0.6545;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
     <path d="M642,200 C664,200 664,278 686,278" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3333;0.3433;0.3778;0.4;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.5455;0.5618;0.6182;0.6545;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
   </g>
   <g fill="none" stroke="#4ECDC4" stroke-width="1.8">
     <path d="M856,122 C878,122 878,200 900,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7091;0.7254;0.8;0.8291;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
     <path d="M856,200 L900,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7091;0.7254;0.8;0.8291;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
     <path d="M856,278 C878,278 878,200 900,200" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.4333;0.4433;0.4889;0.5067;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7091;0.7254;0.8;0.8291;0.95;0.99;1" values="0;0;1;1;0.35;0.35;0;0"></animate>
     </path>
   </g>
 
@@ -71,7 +67,7 @@
     <rect x="30" y="163" width="150" height="74" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
     <text x="105" y="197" text-anchor="middle" fill="#4ECDC4" font-size="20" font-weight="bold" letter-spacing="0.6">REQUEST</text>
     <text x="105" y="219" text-anchor="middle" fill="#b6e8e4" font-size="15" letter-spacing="0.6">POST /v1/turn</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.008;0.0667;0.0933;0.95;0.99;1" values="0;1;1;0.45;0.45;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.0131;0.1091;0.1527;0.95;0.99;1" values="0;1;1;0.45;0.45;0;0"></animate>
   </g>
 
   <rect x="216" y="163" width="190" height="74" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
@@ -81,7 +77,7 @@
     <rect x="216" y="163" width="190" height="74" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
     <text x="311" y="197" text-anchor="middle" fill="#4ECDC4" font-size="20" font-weight="bold" letter-spacing="0.6">SESSION CHECK</text>
     <text x="311" y="219" text-anchor="middle" fill="#b6e8e4" font-size="15" letter-spacing="0.6">auth · ctx window</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0833;0.0933;0.14;0.1667;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.1364;0.1527;0.2291;0.2727;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
   </g>
 
   <rect x="442" y="163" width="200" height="74" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
@@ -90,21 +86,21 @@
   <text x="542" y="312" text-anchor="middle" fill="#c07a7a" font-size="13.5" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
   <g opacity="0">
     <text x="542" y="312" text-anchor="middle" fill="#FFD93D" font-size="13.5" font-weight="bold" letter-spacing="1.8">BUG #0412</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.212;0.3;0.312;1" values="0;0;1;1;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.3273;0.3469;0.4909;0.5105;1" values="0;0;1;1;0;0"></animate>
   </g>
   <text x="542" y="334" text-anchor="middle" fill="#8e8ea4" font-size="13" letter-spacing="1.4">STAGE 3</text>
   <g opacity="0">
     <rect x="442" y="163" width="200" height="74" rx="3" fill="none" stroke="#4ECDC4" stroke-width="1.8"></rect>
     <text x="542" y="197" text-anchor="middle" fill="#4ECDC4" font-size="20" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
     <text x="542" y="219" text-anchor="middle" fill="#b6e8e4" font-size="15" letter-spacing="0.6">tool selection</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.1833;0.192;0.2;0.212;1" values="0;0;1;1;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.3;0.3142;0.3273;0.3469;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0">
     <rect x="436" y="157" width="212" height="86" rx="3" fill="#1a1410" stroke="#FF6B6B" stroke-width="2.2"></rect>
     <text x="542" y="194" text-anchor="middle" fill="#FFD93D" font-size="20" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
     <text x="542" y="216" text-anchor="middle" fill="#FF8A8A" font-size="15" letter-spacing="0.6">tool selection</text>
     <text x="542" y="236" text-anchor="middle" fill="#FF6B6B" font-size="13.5" font-weight="bold" letter-spacing="1">HALT</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.2267;0.2433;0.26;0.2767;0.2933;0.308;1" values="0;0;1;0.5;1;0.5;1;0.75;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.3273;0.3436;0.3709;0.3982;0.4255;0.4527;0.48;0.504;1" values="0;0;1;0.5;1;0.5;1;0.75;0;0"></animate>
   </g>
   <g opacity="0">
     <path d="M542,100 L560,134 L524,134 Z" fill="#1a1410" stroke="#FFD93D" stroke-width="2.2" stroke-linejoin="round"></path>
@@ -112,18 +108,18 @@
     <path d="M542,136 L542,155" stroke="#FFD93D" stroke-width="1.2" stroke-dasharray="3 3"></path>
     <text x="542" y="266" text-anchor="middle" fill="#FF6B6B" font-size="15" font-weight="bold" letter-spacing="0.8">retrieval tool mis-instructed</text>
     <text x="542" y="288" text-anchor="middle" fill="#c08e8e" font-size="14" letter-spacing="0.6">fires on every turn, not on gaps</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.212;0.3;0.312;1" values="0;0;1;1;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.3273;0.3469;0.4909;0.5105;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0">
     <rect x="442" y="163" width="200" height="74" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2.2"></rect>
     <text x="542" y="197" text-anchor="middle" fill="#4ECDC4" font-size="20" font-weight="bold" letter-spacing="0.6">AGENT DECISION</text>
     <text x="542" y="219" text-anchor="middle" fill="#b6e8e4" font-size="15" letter-spacing="0.6">tool selection</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3033;0.3147;0.3333;0.3667;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.4964;0.515;0.5455;0.6;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
   </g>
   <g opacity="0">
     <text x="542" y="266" text-anchor="middle" fill="#4ECDC4" font-size="15" font-weight="bold" letter-spacing="0.8">prompt v4 · retrieval gated</text>
     <text x="542" y="288" text-anchor="middle" fill="#86c2bc" font-size="14" letter-spacing="0.6">resolved, trace resumed</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3133;0.3267;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.5127;0.5345;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
   </g>
 
   <text x="686" y="78" fill="#d08585" font-size="13.5" font-weight="bold" letter-spacing="1.8">BUG PATH</text>
@@ -134,7 +130,7 @@
     <rect x="684" y="86" width="174" height="72" rx="3" fill="#1a1215" stroke="#FF6B6B" stroke-width="2.4"></rect>
     <text x="771" y="121" text-anchor="middle" fill="#FF6B6B" font-size="20" font-weight="bold" letter-spacing="0.6">RETRIEVE</text>
     <text x="771" y="142" text-anchor="middle" fill="#f0b8b8" font-size="15" letter-spacing="0.6">vector index</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3667;0.378;0.4333;0.46;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.6;0.6185;0.7091;0.7527;0.95;0.99;1" values="0;0;1;1;0.5;0.5;0;0"></animate>
   </g>
 
   <rect x="686" y="166" width="170" height="68" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
@@ -150,7 +146,7 @@
     <rect x="686" y="244" width="170" height="68" rx="3" fill="none" stroke="#9333EA" stroke-width="1.8"></rect>
     <text x="771" y="277" text-anchor="middle" fill="#c084fc" font-size="20" font-weight="bold" letter-spacing="0.6">CALCULATOR</text>
     <text x="771" y="298" text-anchor="middle" fill="#c79bf5" font-size="15" letter-spacing="0.6">sandboxed eval</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.3667;0.378;0.4333;0.46;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.6;0.6185;0.7091;0.7527;0.95;0.99;1" values="0;0;1;1;0.45;0.45;0;0"></animate>
   </g>
 
   <rect x="900" y="163" width="150" height="74" rx="3" fill="#13131b" stroke="#2b2b38" stroke-width="1.5"></rect>
@@ -160,87 +156,56 @@
     <rect x="900" y="163" width="150" height="74" rx="3" fill="#101a19" stroke="#4ECDC4" stroke-width="2.2"></rect>
     <text x="975" y="197" text-anchor="middle" fill="#4ECDC4" font-size="20" font-weight="bold" letter-spacing="0.6">FINAL</text>
     <text x="975" y="219" text-anchor="middle" fill="#b6e8e4" font-size="15" letter-spacing="0.6">RESPONSE</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;0.4889;0.5333;0.56;0.95;0.99;1" values="0;0;1;1;0.6;0.6;0;0"></animate>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7855;0.8;0.8727;0.9164;0.95;0.99;1" values="0;0;1;1;0.6;0.6;0;0"></animate>
   </g>
 
   <g opacity="0" filter="url(#g)">
     <circle r="13" fill="#4ECDC4" opacity="0.22">
-      <animate attributeName="fill" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.3033;0.3147;1" values="#4ECDC4;#4ECDC4;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4"></animate>
+      <animate attributeName="fill" dur="11s" repeatCount="indefinite" keyTimes="0;0.3273;0.3436;0.4964;0.515;1" values="#4ECDC4;#4ECDC4;#FF6B6B;#FF6B6B;#4ECDC4;#4ECDC4"></animate>
     </circle>
     <circle r="6" fill="#4ECDC4">
-      <animate attributeName="fill" dur="18s" repeatCount="indefinite" keyTimes="0;0.2;0.21;0.3033;0.3147;1" values="#4ECDC4;#4ECDC4;#FFD93D;#FFD93D;#4ECDC4;#4ECDC4"></animate>
-      <animate attributeName="r" dur="18s" repeatCount="indefinite" keyTimes="0;0.21;0.23;0.25;0.27;0.29;0.308;1" values="6;6;9;6;9;6;6;6"></animate>
+      <animate attributeName="fill" dur="11s" repeatCount="indefinite" keyTimes="0;0.3273;0.3436;0.4964;0.515;1" values="#4ECDC4;#4ECDC4;#FFD93D;#FFD93D;#4ECDC4;#4ECDC4"></animate>
+      <animate attributeName="r" dur="11s" repeatCount="indefinite" keyTimes="0;0.3436;0.3764;0.4091;0.4418;0.4745;0.504;1" values="6;6;9;6;9;6;6;6"></animate>
     </circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M105,200 L311,200 L542,200" keyTimes="0;0.0333;0.0889;0.1333;0.1889;0.3222;1" keyPoints="0;0;0.4714;0.4714;1;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.0053;0.3222;0.3333;1" values="0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M105,200 L311,200 L542,200" keyTimes="0;0.0545;0.1455;0.2182;0.3091;0.5273;1" keyPoints="0;0;0.4714;0.4714;1;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.0087;0.5273;0.5455;1" values="0;1;1;0;0"></animate>
   </g>
 
   <g opacity="0" filter="url(#g)">
     <circle r="12" fill="#FF6B6B" opacity="0.28"></circle>
     <circle r="6" fill="#FF6B6B"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M642,200 C664,200 664,122 686,122 L771,122" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M642,200 C664,200 664,122 686,122 L771,122" keyTimes="0;0.5455;0.6182;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.54;0.5564;0.6182;0.6382;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
     <circle r="11" fill="#9333EA" opacity="0.25"></circle>
     <circle r="5.5" fill="#c084fc"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M642,200 L771,200" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M642,200 L771,200" keyTimes="0;0.5455;0.6182;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.54;0.5564;0.6182;0.6382;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
     <circle r="11" fill="#9333EA" opacity="0.25"></circle>
     <circle r="5.5" fill="#c084fc"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M642,200 C664,200 664,278 686,278 L771,278" keyTimes="0;0.3333;0.3778;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.3778;0.39;1" values="0;0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M642,200 C664,200 664,278 686,278 L771,278" keyTimes="0;0.5455;0.6182;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.54;0.5564;0.6182;0.6382;1" values="0;0;1;1;0;0"></animate>
   </g>
 
   <g opacity="0" filter="url(#g)">
     <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
     <circle r="5.5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M856,122 C878,122 878,200 900,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M856,122 C878,122 878,200 900,200" keyTimes="0;0.7091;0.8;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7036;0.72;0.8;0.8161;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
     <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
     <circle r="5.5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M856,200 L900,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M856,200 L900,200" keyTimes="0;0.7091;0.8;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7036;0.72;0.8;0.8161;1" values="0;0;1;1;0;0"></animate>
   </g>
   <g opacity="0" filter="url(#g)">
     <circle r="11" fill="#4ECDC4" opacity="0.22"></circle>
     <circle r="5.5" fill="#4ECDC4"></circle>
-    <animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" path="M856,278 C878,278 878,200 900,200" keyTimes="0;0.4333;0.4889;1" keyPoints="0;0;1;1"></animateMotion>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.4889;0.4987;1" values="0;0;1;1;0;0"></animate>
-  </g>
-
-  <g opacity="0">
-    <path d="M30 370 L1050 370" stroke="#23232e" stroke-width="1"></path>
-    <text x="30" y="400" fill="#b6b6ca" font-size="15" font-weight="bold" letter-spacing="2.2">POST-FIX EVAL</text>
-    <text x="30" y="534" fill="#9a9ab2" font-size="14" letter-spacing="1">measured after prompt v4</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.52;0.5333;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
-  </g>
-  <g opacity="0">
-    <g filter="url(#gs)">
-      <text x="30" y="472" fill="#4ECDC4" font-size="52" font-weight="bold" letter-spacing="-1">94.3%</text>
-    </g>
-    <text x="30" y="502" fill="#b6e8e4" font-size="17" letter-spacing="0.8">retrieval recall@3</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.5333;0.5587;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
-    <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.5333;0.5587;1" values="0 14;0 14;0 0;0 0"></animateTransform>
-  </g>
-  <g opacity="0">
-    <g filter="url(#gs)">
-      <text x="390" y="472" fill="#FF6B6B" font-size="52" font-weight="bold" letter-spacing="-1">41.5%</text>
-    </g>
-    <text x="390" y="502" fill="#f0b8b8" font-size="17" letter-spacing="0.8">cost savings</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.5587;0.584;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
-    <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.5587;0.584;1" values="0 14;0 14;0 0;0 0"></animateTransform>
-  </g>
-  <g opacity="0">
-    <g filter="url(#gs)">
-      <text x="750" y="472" fill="#FFD93D" font-size="52" font-weight="bold" letter-spacing="-1">86.7%</text>
-    </g>
-    <text x="750" y="502" fill="#f2e0a0" font-size="17" letter-spacing="0.8">tool-selection accuracy</text>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;0.584;0.6093;0.95;0.99;1" values="0;0;1;1;0;0"></animate>
-    <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;0.584;0.6093;1" values="0 14;0 14;0 0;0 0"></animateTransform>
+    <animateMotion dur="11s" repeatCount="indefinite" calcMode="linear" path="M856,278 C878,278 878,200 900,200" keyTimes="0;0.7091;0.8;1" keyPoints="0;0;1;1"></animateMotion>
+    <animate attributeName="opacity" dur="11s" repeatCount="indefinite" keyTimes="0;0.7036;0.72;0.8;0.8161;1" values="0;0;1;1;0;0"></animate>
   </g>
 </svg>
