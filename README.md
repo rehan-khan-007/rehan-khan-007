@@ -392,4 +392,8 @@ graph TB
 
 <p align="center"><sub>"Systems that learn, control loops that hold." (M.Tech, Systems and Control Engineering · IIT Bombay)</sub></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/thanks-banner.svg" width="100%" alt="thanks for stopping by"/>
+</p>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=120&section=footer" width="100%"/>
