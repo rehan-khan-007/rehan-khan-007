@@ -6,7 +6,7 @@
     </radialGradient>
     <path id="star" d="M0,-8 L1.88,-2.59 L7.61,-2.47 L3.04,0.99 L4.70,6.47 L0,3.2 L-4.70,6.47 L-3.04,0.99 L-7.61,-2.47 L-1.88,-2.59 Z"></path>
     <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="7"></feGaussianBlur>
+      <feGaussianBlur stdDeviation="9"></feGaussianBlur>
     </filter>
     <filter id="hazeA" x="-160%" y="-160%" width="420%" height="420%">
       <feGaussianBlur stdDeviation="20">
@@ -41,7 +41,7 @@
   </ellipse>
 
   <g fill="#FFD93D">
-    <g transform="translate(92,64) scale(1.15)" opacity="0.72">
+    <g transform="translate(70,56) scale(1.15)" opacity="0.72">
       <animate attributeName="opacity" values="0;0.90;0.14;0.72;0" keyTimes="0;0.24;0.50;0.74;1" dur="9.4s" begin="0.6s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
@@ -73,7 +73,7 @@
       <animate attributeName="opacity" values="0;0.72;0.11;0.58;0" keyTimes="0;0.28;0.56;0.76;1" dur="11.2s" begin="2.4s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
-    <g transform="translate(470,118) scale(1.05)" opacity="0.72">
+    <g transform="translate(415,100) scale(1.05)" opacity="0.72">
       <animate attributeName="opacity" values="0;0.90;0.14;0.72;0" keyTimes="0;0.30;0.50;0.78;1" dur="9s" begin="0.4s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
@@ -113,11 +113,11 @@
       <animate attributeName="opacity" values="0;0.85;0.13;0.68;0" keyTimes="0;0.28;0.52;0.78;1" dur="10.8s" begin="8.1s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
-    <g transform="translate(1330,258) scale(0.85)" opacity="0.64">
+    <g transform="translate(1340,282) scale(0.85)" opacity="0.64">
       <animate attributeName="opacity" values="0;0.80;0.12;0.64;0" keyTimes="0;0.30;0.54;0.74;1" dur="9.3s" begin="3.8s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
-    <g transform="translate(1438,244) scale(0.52)" opacity="0.60">
+    <g transform="translate(1372,120) scale(0.52)" opacity="0.60">
       <animate attributeName="opacity" values="0;0.75;0.11;0.60;0" keyTimes="0;0.32;0.56;0.76;1" dur="11.9s" begin="6.5s" repeatCount="indefinite"></animate>
       <use href="#star" xlink:href="#star"></use>
     </g>
@@ -165,7 +165,7 @@
         <animate attributeName="fill-opacity" values="0;0;0.08;0.54;0.54;0.07;0;0" keyTimes="0;0.010;0.014;0.200;0.293;0.420;0.471;1" dur="14s" repeatCount="indefinite"></animate>
       </circle>
     </g>
-    <g transform="translate(1424,212)">
+    <g transform="translate(1448,228)">
       <g filter="url(#hazeB)" opacity="0">
         <animate attributeName="opacity" values="0;0;0.04;0.34;0.34;0.05;0;0" keyTimes="0;0.490;0.500;0.693;0.786;0.920;0.971;1" dur="14s" repeatCount="indefinite"></animate>
         <circle cx="0" cy="0" r="34" fill="#FFFBF0" mask="url(#moonB)"></circle>
@@ -184,7 +184,7 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.13;0.80;0.95;1" dur="14s" repeatCount="indefinite"></animate>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,10;0,0;0,0;0,0" keyTimes="0;0.13;0.80;1" dur="14s" repeatCount="indefinite"></animateTransform>
-      <text x="800" y="92" text-anchor="middle" font-family="Courier New, Courier, monospace" font-size="25" letter-spacing="2.5" fill="#4ECDC4" fill-opacity="0.72">if you've made it this far...</text>
+      <text x="800" y="84" text-anchor="middle" font-family="Courier New, Courier, monospace" font-size="34" letter-spacing="3" fill="#4ECDC4" fill-opacity="0.72">if you've made it this far...</text>
     </g>
   </g>
 
@@ -192,18 +192,18 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.26;0.82;0.96;1" dur="14s" repeatCount="indefinite"></animate>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,12;0,0;0,0;0,0" keyTimes="0;0.26;0.82;1" dur="14s" repeatCount="indefinite"></animateTransform>
-      <text x="516" y="176" font-family="Courier New, Courier, monospace" font-size="58" letter-spacing="1" fill="#F2F0F5">show some</text>
+      <text x="436" y="176" font-family="Courier New, Courier, monospace" font-size="76" letter-spacing="1" fill="#F2F0F5">show some</text>
       <g filter="url(#glow)" opacity="0.85">
         <animate attributeName="opacity" values="0.9;0.9;0.2;0.2;0.9" keyTimes="0;0.12;0.5;0.62;1" dur="3.4s" repeatCount="indefinite"></animate>
-        <text x="875" y="176" font-family="Courier New, Courier, monospace" font-size="58" letter-spacing="1" fill="#FF6B6B">love</text>
+        <text x="902" y="176" font-family="Courier New, Courier, monospace" font-size="76" letter-spacing="1" fill="#FF6B6B">love</text>
       </g>
-      <text x="875" y="176" font-family="Courier New, Courier, monospace" font-size="58" letter-spacing="1" fill="#FF8E8E">
+      <text x="902" y="176" font-family="Courier New, Courier, monospace" font-size="76" letter-spacing="1" fill="#FF8E8E">
         <animate attributeName="fill" values="#FFB3B3;#FFB3B3;#FF6B6B;#FF6B6B;#FFB3B3" keyTimes="0;0.12;0.5;0.62;1" dur="3.4s" repeatCount="indefinite"></animate>
         love
       </text>
-      <g transform="translate(1075,156)">
-        <g transform="scale(2.2)">
-          <animateTransform attributeName="transform" type="scale" values="2.2;2.42;2.2;2.32;2.2;2.2" keyTimes="0;0.07;0.17;0.24;0.42;1" dur="2.6s" repeatCount="indefinite"></animateTransform>
+      <g transform="translate(1142,152)">
+        <g transform="scale(2.9)">
+          <animateTransform attributeName="transform" type="scale" values="2.9;3.19;2.9;3.06;2.9;2.9" keyTimes="0;0.07;0.17;0.24;0.42;1" dur="2.6s" repeatCount="indefinite"></animateTransform>
           <path d="M0,-6.6 C-1.6,-10.8 -8,-10.6 -8,-4.8 C-8,0.2 -2.2,4.2 0,8.2 C2.2,4.2 8,0.2 8,-4.8 C8,-10.6 1.6,-10.8 0,-6.6 Z" fill="#FF6B6B"></path>
         </g>
       </g>
@@ -214,12 +214,12 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.29;0.40;0.85;0.97;1" dur="14s" repeatCount="indefinite"></animate>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,10;0,0;0,0;0,0" keyTimes="0;0.40;0.85;1" dur="14s" repeatCount="indefinite"></animateTransform>
-      <text x="800" y="238" text-anchor="middle" font-family="Courier New, Courier, monospace" font-size="22" letter-spacing="3" fill="#F2F0F5" fill-opacity="0.58">star the repos you liked, and thanks for stopping by</text>
-      <text x="1249" y="240" text-anchor="middle" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif" font-size="26" opacity="1">
+      <text x="770" y="250" text-anchor="middle" font-family="Courier New, Courier, monospace" font-size="30" letter-spacing="2" fill="#F2F0F5" fill-opacity="0.66">star the repos you liked, and thanks for stopping by</text>
+      <text x="1329" y="251" text-anchor="middle" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif" font-size="38" opacity="1">
         <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;0.58;0.615;1" calcMode="discrete" dur="14s" repeatCount="indefinite"></animate>
         😊
       </text>
-      <text x="1249" y="240" text-anchor="middle" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif" font-size="26" opacity="0">
+      <text x="1329" y="251" text-anchor="middle" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif" font-size="38" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.58;0.615;1" calcMode="discrete" dur="14s" repeatCount="indefinite"></animate>
         😉
       </text>
