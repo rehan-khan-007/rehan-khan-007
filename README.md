@@ -390,7 +390,7 @@ graph TB
 - **🐦 X:** [@rehan_khan__007](https://x.com/rehan_khan__007)
 - **💻 GitHub:** [rehan-khan-007](https://github.com/rehan-khan-007)
 
-<p align="center">$\textcolor{#4ECDC4}{\Large{\textit{"Systems that learn, control loops that hold."}}}$<br/><em>Rehan Khan, M.Tech Systems and Control Engineering · IIT Bombay</em></p>
+<p align="center">$\textcolor{#4ECDC4}{\normalsize{\textit{"Systems that learn, control loops that hold."}}}$<br/><em>Rehan Khan, M.Tech Systems and Control Engineering · IIT Bombay</em></p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rehan-khan-007/rehan-khan-007/main/assets/thanks-banner.svg" width="100%" alt="thanks for stopping by"/>
